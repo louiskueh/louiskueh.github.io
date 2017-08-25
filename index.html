@@ -231,13 +231,7 @@
 
             <p>You can also embed your GitHub activities using Casey Scarborough's <a href="http://caseyscarborough.com/projects/github-activity/" target="_blank">GitHub Activity Stream</a> widget.
               <div id="feed"></div>
-              <script>
-                GitHubActivity.feed({
-                  username: "jovanhan2",
-                  selector: "#feed",
-                  limit: 20 // optional
-                });
-              </script>
+
 
               <div id="github-graph" class="github-graph">
               </div>
@@ -456,6 +450,13 @@
   <!-- github activity plugin -->
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
   <script type="text/javascript" src="assets/plugins/github-activity/src/github-activity.js"></script>
+  <script>
+    GitHubActivity.feed({
+      username: "jovanhan2",
+      selector: "#feed",
+      limit: 20 // optional
+    });
+  </script>
   <!-- custom js -->
   <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
