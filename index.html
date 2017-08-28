@@ -207,14 +207,22 @@
 
                   <h5>Parser</h5>
 
-                  <p style="text-align:justify">Next I defined the grammar of our inputs, in this case C&plus;&plus; syntax. This was done using Bison. In order to build
-                  and parse large inputs, I used an Abstract Syntax Tree to parse the inputs in a top-down approach. One example of an expression grammer I defined in Bison is shown below : </p>
+                  <p style="text-align:justify">Next I defined the grammar of our inputs, in this case C&plus;&plus; syntax. This was done using Bison. In order to build and parse large inputs, I used an Abstract Syntax Tree to parse the inputs in a top-down approach. One example
+                    of an expression grammer I defined in Bison is shown below : </p>
 
                   <ul>
                     <li> Exp -> Term ExpOp Exp | Term </li>
                     <li> Term -> Factor TermOp Term | Factor</li>
                     <li> Factor -> Number FactorOp Number | Number</li>
                   </ul>
+
+                  <h5>Code Generation</h5>
+
+                  <p style="text-align:justify">The target output was MIPS assembly language. This was, in my opinion, the hardest part of the compiler. From the parser, I would have access to the whole Abstract Syntax Tree (AST) of the inputs. The next step would be to generate assembly
+                    instructions, manually. This would be done by going through the AST and writing to the file the necessary commands, for example 'Add $reg1, $reg2, $reg3'.</p>
+
+                  <p style="text-align:justify">This was especially hard when you consider nested expressions, such as 'int i = 1 + 2 + (3 * 4 )...etc' as well as loops and conditional statements. Lastly,
+                  I also performed some pre-processing of the C C&plus;&plus;, defining names and recording line numbers for debugging.</p>
 
                   <p><a class="more-link" href="https://github.com/jovanhan2/Compiler-Cpp"><i class="fa fa-github"></i> Github </a></p>
                 </div>
