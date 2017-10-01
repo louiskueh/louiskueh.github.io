@@ -40,6 +40,22 @@
 
   <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.7.2/mustache.min.js"></script>
   <script type="text/javascript" src="github-activity-0.1.5.min.js"></script>
+  <script>
+    (function(i, s, o, g, r, a, m) {
+      i['GoogleAnalyticsObject'] = r;
+      i[r] = i[r] || function() {
+        (i[r].q = i[r].q || []).push(arguments)
+      }, i[r].l = 1 * new Date();
+      a = s.createElement(o),
+        m = s.getElementsByTagName(o)[0];
+      a.async = 1;
+      a.src = g;
+      m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-82259157-3', 'auto');
+    ga('send', 'pageview');
+  </script>
   <style>
     .logo {
       float: left;
@@ -221,8 +237,8 @@
                   <p style="text-align:justify">The target output was MIPS assembly language. This was, in my opinion, the hardest part of the compiler. From the parser, I would have access to the whole Abstract Syntax Tree (AST) of the inputs. The next step would be to generate assembly
                     instructions, manually. This would be done by going through the AST and writing to the file the necessary commands, for example 'Add $reg1, $reg2, $reg3'.</p>
 
-                  <p style="text-align:justify">This was especially hard when you consider nested expressions, such as 'int i = 1 + 2 + (3 * 4 )...etc' as well as loops and conditional statements. Lastly,
-                  I also performed some pre-processing of the C C&plus;&plus;, defining names and recording line numbers for debugging.</p>
+                  <p style="text-align:justify">This was especially hard when you consider nested expressions, such as 'int i = 1 + 2 + (3 * 4 )...etc' as well as loops and conditional statements. Lastly, I also performed some pre-processing of the C C&plus;&plus;, defining names
+                    and recording line numbers for debugging.</p>
 
                   <p><a class="more-link" href="https://github.com/jovanhan2/Compiler-Cpp"><i class="fa fa-github"></i> Github </a></p>
                 </div>
