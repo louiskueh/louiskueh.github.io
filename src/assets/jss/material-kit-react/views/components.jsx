@@ -10,7 +10,10 @@ const componentsStyle = {
     fontSize: "4.2rem",
     fontWeight: "600",
     display: "inline-block",
-    position: "relative"
+    position: "relative",
+    top: "-150px",
+    color: "#FFFFFF  ",
+    whitespace: "nowrap"
   },
   subtitle: {
     fontSize: "1.313rem",

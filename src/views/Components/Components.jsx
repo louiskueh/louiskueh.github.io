@@ -39,20 +39,17 @@ class Components extends React.Component {
           brand="Louis Kueh"
           rightLinks={<HeaderLinks />}
           fixed
-          color="transparent"
+          color="#000000"
           changeColorOnScroll={{
             height: 400,
             color: "white"
           }}
           {...rest}
         />
-        <Parallax image={require("assets/img/bg4.jpg")}>
+        <Parallax image={require("assets/img/myBackground-filtered.jpg")} >
           <div className={classes.container}>
-            <GridContainer>
-              <GridItem>
-                <img src={profile} alt="..." className={classes.imgRoundedCircle} />
-              </GridItem>
-              <GridItem>
+            <GridContainer justify="center">
+              <GridItem md={5} >
                 <div className={classes.brand}>
                   <h1 className={classes.title}>Hi, I'm Louis</h1>
                   <h3 className={classes.subtitle}>
