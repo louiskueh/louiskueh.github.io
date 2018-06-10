@@ -2,7 +2,7 @@
   "name": "louiskueh.com",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jovanhan2.github.io",
+  "homepage": "https://louiskueh.com",
   "dependencies": {
     "gh-pages": "^1.2.0",
     "react": "^16.4.0",
