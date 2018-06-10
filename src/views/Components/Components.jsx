@@ -29,7 +29,7 @@ import SectionExamples from "./Sections/SectionExamples.jsx";
 import SectionDownload from "./Sections/SectionDownload.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
-import profile from "assets/img/faces/christian.jpg";
+import profile from "assets/img/profile.png";
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
@@ -54,9 +54,9 @@ class Components extends React.Component {
               </GridItem>
               <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>A material-design website based in ReactJS</h1>
+                  <h1 className={classes.title}>Hi, I'm Louis</h1>
                   <h3 className={classes.subtitle}>
-                    A material-design website based in ReactJS
+                    Software Enthusiast &amp; Developer
                   </h3>
                 </div>
               </GridItem>
