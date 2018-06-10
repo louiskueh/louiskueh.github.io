@@ -29,14 +29,14 @@ import SectionExamples from "./Sections/SectionExamples.jsx";
 import SectionDownload from "./Sections/SectionDownload.jsx";
 
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
-
+import profile from "assets/img/faces/christian.jpg";
 class Components extends React.Component {
   render() {
     const { classes, ...rest } = this.props;
     return (
       <div>
         <Header
-          brand="Material Kit React"
+          brand="Louis Kueh"
           rightLinks={<HeaderLinks />}
           fixed
           color="transparent"
@@ -50,10 +50,13 @@ class Components extends React.Component {
           <div className={classes.container}>
             <GridContainer>
               <GridItem>
+                <img src={profile} alt="..." className={classes.imgRoundedCircle} />
+              </GridItem>
+              <GridItem>
                 <div className={classes.brand}>
-                  <h1 className={classes.title}>Material Kit React.</h1>
+                  <h1 className={classes.title}>A material-design website based in ReactJS</h1>
                   <h3 className={classes.subtitle}>
-                    A Badass Material-UI Kit based on Material Design.
+                    A material-design website based in ReactJS
                   </h3>
                 </div>
               </GridItem>
@@ -70,7 +73,7 @@ class Components extends React.Component {
           <SectionTypography />
           <SectionJavascript />
           <SectionCarousel />
-          <SectionCompletedExamples />
+          {/* <SectionCompletedExamples />
           <SectionLogin />
           <GridItem md={12} className={classes.textCenter}>
             <Link to={"/login-page"} className={classes.link}>
@@ -80,7 +83,7 @@ class Components extends React.Component {
             </Link>
           </GridItem>
           <SectionExamples />
-          <SectionDownload />
+          <SectionDownload /> */}
         </div>
         <Footer />
       </div>

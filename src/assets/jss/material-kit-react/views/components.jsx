@@ -33,6 +33,9 @@ const componentsStyle = {
   },
   textCenter: {
     textAlign: "center"
+  },
+  imgRoundedCircle: {
+    borderRadius: "50% !important"
   }
 };
 
