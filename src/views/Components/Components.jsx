@@ -56,7 +56,7 @@ class Components extends React.Component {
                 <div className={classes.brand}>
                   <h1 className={classes.title}>Hi, I'm Louis</h1>
                   <h3 className={classes.subtitle}>
-                    Software Enthusiast &amp; Developer
+                    {/* Software Enthusiast &amp; Developer */}
                   </h3>
                 </div>
               </GridItem>
