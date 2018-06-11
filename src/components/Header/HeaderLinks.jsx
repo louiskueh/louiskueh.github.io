@@ -38,52 +38,35 @@ function HeaderLinks({ ...props }) {
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-twitter"
-          title="Follow us on twitter"
+          id="github"
+          title="Follow me on Github"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <IconButton
-            href="https://twitter.com/CreativeTim"
+            href="https://github.com/jovanhan2"
             target="_blank"
             color="transparent"
             className={classes.navLink + " " + classes.socialIconsButton}
           >
-            <i className={classes.socialIcons + " fab fa-twitter"} />
+            <i className={classes.socialIcons + " fab fa-github"} />
           </IconButton>
         </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
-          id="instagram-facebook"
-          title="Follow us on facebook"
+          id="LinkedIn"
+          title="Have a look at my LinkedIn"
           placement={window.innerWidth > 959 ? "top" : "left"}
           classes={{ tooltip: classes.tooltip }}
         >
           <IconButton
             color="transparent"
-            href="https://www.facebook.com/CreativeTim"
+            href="https://www.linkedin.com/in/louiskueh/"
             target="_blank"
             className={classes.navLink + " " + classes.socialIconsButton}
           >
-            <i className={classes.socialIcons + " fab fa-facebook"} />
-          </IconButton>
-        </Tooltip>
-      </ListItem>
-      <ListItem className={classes.listItem}>
-        <Tooltip
-          id="instagram-tooltip"
-          title="Follow us on instagram"
-          placement={window.innerWidth > 959 ? "top" : "left"}
-          classes={{ tooltip: classes.tooltip }}
-        >
-          <IconButton
-            color="transparent"
-            href="https://www.instagram.com/CreativeTimOfficial"
-            target="_blank"
-            className={classes.navLink + " " + classes.socialIconsButton}
-          >
-            <i className={classes.socialIcons + " fab fa-instagram"} />
+            <i className={classes.socialIcons + " fab fa-linkedin"} />
           </IconButton>
         </Tooltip>
       </ListItem>
