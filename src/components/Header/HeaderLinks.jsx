@@ -25,8 +25,12 @@ function HeaderLinks({ ...props }) {
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
-      </ListItem>
-      <ListItem className={classes.listItem}>
+      <Tooltip
+          id="Resume Download"
+          title="Download my resume"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
         <Button
           href={resume}
           color="transparent"
@@ -35,6 +39,7 @@ function HeaderLinks({ ...props }) {
         >
           <CloudDownload className={classes.icons} /> Resume
         </Button>
+        </Tooltip>
       </ListItem>
       <ListItem className={classes.listItem}>
         <Tooltip
