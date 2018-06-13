@@ -39,9 +39,11 @@ const typographyStyle = {
     width: "350px"
   },
   text:{
-    textAlign: 'center',
-    fontSize: "18px",
-    lineHeight: "18px"
+    display: "block",
+    paddingLeft: "60px",
+    position: "relative",
+    top: "30px" 
+
   },
   marginLeft: {
     marginLeft: "auto !important"

@@ -18,6 +18,9 @@ import Muted from "components/Typography/Muted.jsx";
 import Quote from "components/Typography/Quote.jsx";
 import typographyStyle from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.jsx";
 import image from "assets/img/faces/avatar.jpg";
+import ReactMarkdown from "react-markdown";
+
+const input = '# This is a header\n\nAnd this is a paragraph'
 class SectionTypography extends React.Component {
   render() {
     const { classes } = this.props;
@@ -31,8 +34,10 @@ class SectionTypography extends React.Component {
             <GridContainer>
               <div className={classes.typo}>
                 <div className={classes.note}><b>Deutsche Bank </b>| Software developer Intern <br /> June 2017 - August 2017</div>
-              <h3>The Life of Material Kit</h3>
-
+                <div className ={classes.text}>
+                <ReactMarkdown source={input} />
+                </div>
+                
               </div>
               {/* <div className={classes.typo}>
                 <div className={classes.note}>Header 2</div>
