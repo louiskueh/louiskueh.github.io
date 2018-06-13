@@ -11,9 +11,11 @@ const typographyStyle = {
     height: "50px",
     display: "block"
   },
-  title: {
+   title: {
     ...title,
+    textAlign: 'center',
     marginTop: "30px",
+    marginBottom: "30px",
     minHeight: "32px",
     textDecoration: "none"
   },
@@ -29,12 +31,17 @@ const typographyStyle = {
     color: "#c0c1c2",
     display: "block",
     fontWeight: "400",
-    fontSize: "13px",
-    lineHeight: "13px",
+    fontSize: "16px",
+    lineHeight: "16px",
     left: "0",
-    marginLeft: "20px",
+    marginLeft: "-30px",
     position: "absolute",
-    width: "260px"
+    width: "350px"
+  },
+  text:{
+    textAlign: 'center',
+    fontSize: "18px",
+    lineHeight: "18px"
   },
   marginLeft: {
     marginLeft: "auto !important"

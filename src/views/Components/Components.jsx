@@ -64,13 +64,14 @@ class Components extends React.Component {
         <div className={classNames(classes.main, classes.mainRaised)}>
           <SectionCarousel />
           <SectionProject />
-          <SectionBasics />
+          <SectionTypography />
+      
+          {/* <SectionBasics />
           <SectionNavbars />
           <SectionTabs />
           <SectionPills />
           <SectionNotifications />
-          <SectionTypography />
-          <SectionJavascript />
+          <SectionJavascript /> */}
         
         </div>
         <Footer />

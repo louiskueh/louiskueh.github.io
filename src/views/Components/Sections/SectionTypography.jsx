@@ -26,14 +26,15 @@ class SectionTypography extends React.Component {
         <div className={classes.container}>
           <div id="typography">
             <div className={classes.title}>
-              <h2>Typography</h2>
+              <h1>Experience</h1>
             </div>
             <GridContainer>
               <div className={classes.typo}>
-                <div className={classes.note}>Header 1</div>
-                <h1>The Life of Material Kit</h1>
+                <div className={classes.note}><b>Deutsche Bank </b>| Software developer Intern <br /> June 2017 - August 2017</div>
+              <h3>The Life of Material Kit</h3>
+
               </div>
-              <div className={classes.typo}>
+              {/* <div className={classes.typo}>
                 <div className={classes.note}>Header 2</div>
                 <h2>The Life of Material Kit</h2>
               </div>
@@ -134,10 +135,10 @@ class SectionTypography extends React.Component {
                   Header with small subtitle<br />
                   <Small>Use "Small" tag for the headers</Small>
                 </h2>
-              </div>
+              </div> */}
             </GridContainer>
           </div>
-          <div className={classes.space50} />
+          {/* <div className={classes.space50} />
           <div id="images">
             <div className={classes.title}>
               <h2>Images</h2>
@@ -191,7 +192,7 @@ class SectionTypography extends React.Component {
             </GridContainer>
             <GridContainer />
           </div>
-          <div className={classes.space50} />
+          <div className={classes.space50} /> */}
         </div>
       </div>
     );
