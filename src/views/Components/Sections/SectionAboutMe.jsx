@@ -32,11 +32,8 @@ class SectionAboutMe extends React.Component {
                 <h1>About Me</h1>
             </div>
             <div>
-            Experienced Instructor with a demonstrated history of working in the information technology and services industry. Skilled in C++, Java, Object Oriented Programming, Hardware Design, MIPS Instruction Set, and SQL. Strong education professional with a Master’s Degree focused in Electronic and Information Engineering from Imperial College London.
-
-I love table tennis! I'm currently president of the Imperial College Table Tennis Club. I love playing my guitar, singing, meeting new people and learning new stuff.
-
-Currently seeking summer internships in the technology sector.
+            Experienced student with a demonstrated history of working in technology. Skilled in Object Oriented Programming, C++, Java, SQL, Angular, React, HTML/CSS. Strong education professional with a Master’s Degree focused in Electronic and Information Engineering from Imperial College London.
+Currently seeking graduate opportunities in the technology sector (2018-2019).
                 
             </div>
       
