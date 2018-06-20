@@ -39,21 +39,18 @@ class SectionProject extends React.Component {
                   <img src={team1} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Gigi Hadid
+                  Microsoft Visual Studio Code Extension: Neon
                   <br />
-                  <small className={classes.smallTitle}>Model</small>
+                  <small className={classes.smallTitle}>Designed for data scientists</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                    Developed an opensource extension which 
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
-                    <i className={classes.socials + " fab fa-twitter"} />
+                    <i className={classes.socials + " fab fa-github"} />
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
                     <i className={classes.socials + " fab fa-instagram"} />
