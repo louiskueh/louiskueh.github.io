@@ -28,7 +28,6 @@ const carouselStyle = {
     right:"250px",
     bottom: "30px"
   }
-
 };
 
 export default carouselStyle;
