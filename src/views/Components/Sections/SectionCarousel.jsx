@@ -10,7 +10,8 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
-import image1 from "assets/img/bg.jpg";
+
+import image1 from "assets/gifs/VSCode.gif";
 import image2 from "assets/img/bg2.jpg";
 import image3 from "assets/img/bg3.jpg";
 
@@ -32,7 +33,7 @@ class SectionCarousel extends React.Component {
             <h1>Projects</h1>
           </div>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={8} className={classes.marginAuto}>
+            <GridItem xs={12} sm={12} md={30} className={classes.marginAuto}>
               <Card carousel>
                 <Carousel {...settings}>
                   <div>
@@ -43,10 +44,10 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                       <h4>
-                        <LocationOn className="slick-icons" />Yellowstone
-                        National Park, United States
+                      <i className={classes.socialIcons + " fab fa-github fa-2x"} /> VS Code extension built in collaboration with Microsoft
                       </h4>
                     </div>
+            
                   </div>
                   <div>
                     <img
