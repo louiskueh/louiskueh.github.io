@@ -21,7 +21,14 @@ const carouselStyle = {
     fontSize: "24px",
     textAlign: "justify",
     lineHeight: 1.5,
+  },
+  carouselText:{
+    fontSize: "20px",
+    position: "relative",
+    right:"250px",
+    bottom: "30px"
   }
+
 };
 
 export default carouselStyle;

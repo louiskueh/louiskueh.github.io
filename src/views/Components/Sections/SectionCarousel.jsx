@@ -26,6 +26,14 @@ class SectionCarousel extends React.Component {
       slidesToScroll: 1,
       autoplay: false
     };
+    const styles = {
+      link: {
+        color: "white",
+        ":hover": {
+          color: "red",
+        },
+      },
+    };
     return (
       <div className={classes.section}>
         <div className={classes.container}>
@@ -43,8 +51,8 @@ class SectionCarousel extends React.Component {
                       className="slick-image"
                     />
                     <div className="slick-caption">
-                      <h4>
-                      <i className={classes.socialIcons + " fab fa-github fa-2x"} /> VS Code extension built in collaboration with Microsoft
+                      <h4 className={classes.carouselText}>
+                      <i className={classes.socialIcons + " fab fa-github fa-2x"} />  <a href="https://github.com/lorenzo2897/vscode-ipe" style={styles.link}>VS Code extension built in collaboration with Microsoft</a>
                       </h4>
                     </div>
             
