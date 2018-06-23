@@ -16,6 +16,12 @@ const carouselStyle = {
     minHeight: "32px",
     textDecoration: "none"
   },
+  aboutMeText:{
+    fontWeight: "200",
+    fontSize: "24px",
+    textAlign: "justify",
+    lineHeight: 1.5,
+  }
 };
 
 export default carouselStyle;

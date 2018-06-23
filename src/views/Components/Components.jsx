@@ -67,14 +67,7 @@ class Components extends React.Component {
           <SectionCarousel />
           <SectionProject />
           <SectionTypography />
-      
-          {/* <SectionBasics />
-          <SectionNavbars />
-          <SectionTabs />
-          <SectionPills />
-          <SectionNotifications />
-          <SectionJavascript /> */}
-        
+    
         </div>
         <Footer />
       </div>
