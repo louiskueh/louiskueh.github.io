@@ -12,7 +12,7 @@ import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
 
 import image1 from "assets/gifs/VSCode.gif";
-import image2 from "assets/img/bg2.jpg";
+import image2 from "assets/gifs/Unity2Dplatformer.gif";
 import image3 from "assets/img/bg3.jpg";
 import Interactive from 'react-interactive';
 
@@ -64,7 +64,7 @@ class SectionCarousel extends React.Component {
                         hover={{ color: '#00cc66' }}
                         hoverActive={{ color: '#006600' }}
                         >
-                        VS Code extension built in collaboration with Microsoft
+                        &nbsp;&nbsp;VS Code extension built in collaboration with Microsoft
                         </Interactive>
 
                                             
@@ -81,8 +81,20 @@ class SectionCarousel extends React.Component {
                     />
                     <div className="slick-caption">
                       <h4>
-                        <LocationOn className="slick-icons" />Somewhere Beyond,
-                        United States
+                      <i className={classes.socialIcons + " fab fa-github fa-2x"} /> 
+                      <Interactive
+                        as="a"
+                        href="https://github.com/jovanhan2/Simple2DPlatformer"
+                        target="_blank"
+                        normal={{ color: 'white' }}
+
+                        // mouse interactions: normal -> hover -> hoverActive
+                        hover={{ color: '#3062D5' }}
+                        hoverActive={{ color: '#031C57' }}
+                        >
+                        &nbsp;&nbsp;2D platformer game (Unity)
+                        </Interactive>
+
                       </h4>
                     </div>
                   </div>
