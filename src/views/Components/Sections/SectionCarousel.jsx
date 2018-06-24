@@ -13,14 +13,18 @@ import carouselStyle from "assets/jss/material-kit-react/views/componentsSection
 
 import image1 from "assets/gifs/VSCode.gif";
 import image2 from "assets/gifs/Unity2Dplatformer.gif";
-import image3 from "assets/img/bg3.jpg";
+import image3 from "assets/gifs/2048.gif";
 import Interactive from 'react-interactive';
 
 class SectionCarousel extends React.Component {
   render() {
+  const imageHeight = 559
+  const imageWidth = 1200
     const { classes } = this.props;
     const settings = {
+      height: 10,
       dots: true,
+      fade: true,
       infinite: true,
       speed: 500,
       slidesToShow: 1,
@@ -46,8 +50,10 @@ class SectionCarousel extends React.Component {
               <Card carousel>
                 <Carousel {...settings}>
                   <div>
-                    <img
+                    <img 
                       src={image1}
+                      width={imageWidth}
+                      height={imageHeight}
                       alt="First slide"
                       className="slick-image"
                     />
@@ -76,6 +82,8 @@ class SectionCarousel extends React.Component {
                   <div>
                     <img
                       src={image2}
+                      width={imageWidth}
+                      height={imageHeight}
                       alt="Second slide"
                       className="slick-image"
                     />
@@ -101,13 +109,26 @@ class SectionCarousel extends React.Component {
                   <div>
                     <img
                       src={image3}
+                      width={imageWidth}
+                      height={imageHeight}
                       alt="Third slide"
                       className="slick-image"
                     />
                     <div className="slick-caption">
-                      <h4>
-                        <LocationOn className="slick-icons" />Yellowstone
-                        National Park, United States
+                      <h4 className={classes.carouselText2}>
+                      <i className={classes.socialIcons + " fab fa-github fa-2x"} /> 
+                      <Interactive
+                        as="a"
+                        href="https://github.com/jovanhan2/2048"
+                        target="_blank"
+                        normal={{ color: 'white' }}
+
+                        // mouse interactions: normal -> hover -> hoverActive
+                        hover={{ color: '#3062D5' }}
+                        hoverActive={{ color: '#031C57' }}
+                        >
+                        &nbsp;&nbsp;My own take on the popular 2048 game
+                        </Interactive>
                       </h4>
                     </div>
                   </div>

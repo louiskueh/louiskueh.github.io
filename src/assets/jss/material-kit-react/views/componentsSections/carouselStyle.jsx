@@ -27,6 +27,16 @@ const carouselStyle = {
     position: "relative",
     right:"250px",
     bottom: "30px"
+  },
+   carouselText2:{
+    fontSize: "20px",
+    position: "relative",
+    right:"-50px",
+
+  },
+  carosoulImage:{
+    maxwidth: "720px",
+    maxheight: "660px"
   }
 };
 
