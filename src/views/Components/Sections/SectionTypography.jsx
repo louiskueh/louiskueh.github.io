@@ -2,25 +2,11 @@ import React from "react";
 
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
-
-// @material-ui/icons
-
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
-import GridItem from "components/Grid/GridItem.jsx";
-import Small from "components/Typography/Small.jsx";
-import Danger from "components/Typography/Danger.jsx";
-import Warning from "components/Typography/Warning.jsx";
-import Success from "components/Typography/Success.jsx";
-import Info from "components/Typography/Info.jsx";
-import Primary from "components/Typography/Primary.jsx";
-import Muted from "components/Typography/Muted.jsx";
-import Quote from "components/Typography/Quote.jsx";
 import typographyStyle from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.jsx";
-import image from "assets/img/faces/avatar.jpg";
-import ReactMarkdown from "react-markdown";
 
-const input = '# This is a header\n\nAnd this is a paragraph'
+
 class SectionTypography extends React.Component {
   render() {
     const { classes } = this.props;
@@ -34,10 +20,34 @@ class SectionTypography extends React.Component {
             <GridContainer>
               <div className={classes.typo}>
                 <div className={classes.note}><b>Deutsche Bank </b>| Software developer Intern <br /> June 2017 - August 2017</div>
-                <div className ={classes.text}>
-                <ReactMarkdown source={input} />
+                <div className={classes.text}>
+                  <h5>Buisness Case </h5>
+                  <p>Worked with another intern to build a (Java) web application to automate SQL queries which were manually changed every day in the back-end, after which the results were copied and pasted into a SharePoint document - taking up to 2 hours
+                  of work time every day. With the application, the process was 12 times faster - taking up to 10 minutes for the same task. </p>
+                  <h5>The application</h5>
+
+                  <ul>
+                    <li>Able to switch seamlessly between different database types, for example Oracle and MySQL, by implementing JDBC DAO connectors for each of the database </li>
+                    <li> Able to input parameters on the web page, which would replace certain variables in the SQL query </li>
+                    <li>Results were displayed in website itself, with pagination and export to CSV as a functionality </li>
+                  </ul>
+                  <h5>Technologies Used</h5>
+                  <ul>
+                    <li>Spring Model View Controller + Maven for back-end development and dependencies </li>
+                    <li>Thymeleaf, HTML, Bootstrap, Javascript, JQuery &amp; CSS for front-end development of the website </li>
+                    <li> JUnit tests for unit testing of the application's functionality</li>
+                    <li> SonarQube for evaluating code coverage and code quality </li>
+
+
+                  </ul>
+                  <h5>Overall Impression</h5>
+                  <p>
+                    As someone who had limited Java experience before undertaking the project, I thoroughly enjoyed the experience of not only learning new frameworks and technologies but also analysing the problem and learning how to deliver a solution in a work place settings,
+                    with real deadlines. I was particularly impressed with SonarQube, which is an industry standard tool for checking your code. It makes sure your code is clean, for example, making sure there are no unhandled exceptions, as well as giving
+                  a hard statistical number on your code coverage from testing. I have learnt a lot from this internship and will definitely be using my knowledge gained in my future work.</p>
+
                 </div>
-                
+
               </div>
               {/* <div className={classes.typo}>
                 <div className={classes.note}>Header 2</div>
