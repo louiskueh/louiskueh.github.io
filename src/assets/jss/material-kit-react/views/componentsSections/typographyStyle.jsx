@@ -27,27 +27,33 @@ const typographyStyle = {
   },
   note: {
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-    bottom: "10px",
     color: "#c0c1c2",
     display: "block",
     fontWeight: "400",
     fontSize: "16px",
     lineHeight: "16px",
-    left: "0",
-    marginLeft: "-30px",
     position: "absolute",
-    width: "350px"
+    width: "350px",
+    left:"0px",
+    top:"55px"
   },
   text:{
     display: "block",
     paddingLeft: "60px",
     position: "relative",
-    top: "30px" 
+    top: "30px",
+    textAlign: 'justify',
+    fontSize:"14px",
+    fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
 
   },
   marginLeft: {
     marginLeft: "auto !important"
   },
+  iconSize:{
+    fontSize:70
+  },
+  
   ...imagesStyles
 };
 
