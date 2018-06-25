@@ -23,12 +23,12 @@ const projectStyle = {
     color: "#6c757d"
   },
   description: {
-    color: "#999"
+    color: "#999",
   },
   justifyCenter: {
     justifyContent: "center !important"
   },
-  socials: {
+  socialsYoutube: {
     marginTop: "0",
     width: "100%",
     transform: "none",
@@ -37,7 +37,18 @@ const projectStyle = {
     height: "100%",
     lineHeight: "41px",
     fontSize: "20px",
-    color: "#999"
+    color: "#e52d27"
+  },
+  socialsGitHub: {
+    marginTop: "0",
+    width: "100%",
+    transform: "none",
+    left: "0",
+    top: "0",
+    height: "100%",
+    lineHeight: "41px",
+    fontSize: "20px",
+    color: "#333"
   },
   margin5: {
     margin: "5px"
