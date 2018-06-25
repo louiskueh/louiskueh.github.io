@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.0befb6f5.css",
   "main.css.map": "static/css/main.0befb6f5.css.map",
-  "main.js": "static/js/main.e0003c7c.js",
-  "main.js.map": "static/js/main.e0003c7c.js.map",
+  "main.js": "static/js/main.ac3f0855.js",
+  "main.js.map": "static/js/main.ac3f0855.js.map",
   "static\\media\\2048.gif": "static/media/2048.6b7f710c.gif",
   "static\\media\\Unity2Dplatformer.gif": "static/media/Unity2Dplatformer.5d0b1977.gif",
   "static\\media\\VSCode.gif": "static/media/VSCode.3b08fa8b.gif",
@@ -18,6 +18,7 @@
   "static\\media\\myBG.jpg": "static/media/myBG.51709cac.jpg",
   "static\\media\\olu-eletu.jpg": "static/media/olu-eletu.4112cbc1.jpg",
   "static\\media\\profile-bg.jpg": "static/media/profile-bg.baf6b40a.jpg",
+  "static\\media\\springBoot.png": "static/media/springBoot.229ed799.png",
   "static\\media\\studio-1.jpg": "static/media/studio-1.ae0150c0.jpg",
   "static\\media\\studio-2.jpg": "static/media/studio-2.76e2987e.jpg",
   "static\\media\\studio-3.jpg": "static/media/studio-3.1d5451ce.jpg",
