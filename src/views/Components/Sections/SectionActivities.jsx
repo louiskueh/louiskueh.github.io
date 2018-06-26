@@ -19,7 +19,22 @@ class SectionActivity extends React.Component {
             </div>
             <GridContainer>
               <div className={classes.typo}>
-                <div className={classes.note}><b>Imperial College</b>|Undergraduate Teaching Assistant<br /> Spring 2018</div>
+                <div className={classes.note}><b>Undergraduate Teaching Assistant</b> <br />Imperial College<br /> Spring 2018</div>
+                <div className={classes.text}>
+                  <p>Taught EE1-07 Software Engineering 1: Introduction to Computing. 
+                     
+                    <ul>
+                      <li>Responsible for introducing programming to new undergraduate students.</li>
+                      <li>Developed steadfast presence and revised many deep programming concepts during teaching.</li>
+                      <li>Built communication collaboration
+                    skills through working directly with the professor and other teaching assistants</li>
+                    </ul>
+                  
+                  </p>
+                </div>
+              </div>
+              <div className={classes.typo}>
+                <div className={classes.note}><b>President</b> <br />Imperial College Table Tennis Club <br /> Sept 2017 - June 2018</div>
                 <div className={classes.text}>
                   <p>Taught EE1-07 Software Engineering 1: Introduction to Computing. Responsible for introducing programming to new undergraduate students.
                     Developed steadfast presence and revised many deep programming concepts during teaching. Built communication collaboration
@@ -28,8 +43,8 @@ class SectionActivity extends React.Component {
                 </div>
               </div>
 
-                <div className={classes.typo}>
-                <div className={classes.note}><b>Teach First </b>| Insight Scheme <br /> Spring 2017</div>
+              <div className={classes.typo}>
+                <div className={classes.note}><b>Insight Scheme </b>| Teach First <br /> Spring 2017</div>
                 <div className={classes.text}>
                   <p>Winner of Best Short-term Insight Scheme - 2017 National Undergraduate Employability Awards
                   <ul>

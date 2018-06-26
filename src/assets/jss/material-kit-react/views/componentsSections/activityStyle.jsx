@@ -35,7 +35,7 @@ const typographyStyle = {
     position: "absolute",
     width: "350px",
     left:"0px",
-    top:"55px"
+    top:"35px"
   },
   text:{
     display: "block",

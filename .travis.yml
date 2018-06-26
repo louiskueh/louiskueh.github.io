@@ -6,5 +6,5 @@ cache:
   directories:
     - node_modules
 install:
-  - npm i npm@latest -g
+  - npm i -g npm@5.7.1
   - npm ci
