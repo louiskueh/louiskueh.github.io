@@ -78,16 +78,38 @@ class SectionProject extends React.Component {
                   <img src={team2} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Christian Louboutin
+                  louiskueh.com
                   <br />
-                  <small className={classes.smallTitle}>Designer</small>
+                  <small className={classes.smallTitle}>A material design porfolio</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                    Developed with the React. I wanted to explore the usefulness of React and ended up creating a website.
+                  </p>
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <i className={classes.socials + " fab fa-twitter"} />
+                  </IconButton>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <i className={classes.socials + " fab fa-linkedin"} />
+                  </IconButton>
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
+                  <img src={team2} alt="..." className={imageClasses} />
+                </GridItem>
+                <h4 className={classes.cardTitle}>
+                  2D platformer
+                  <br />
+                  <small className={classes.smallTitle}>Developed in Unity</small>
+                </h4>
+                <CardBody>
+                  <p className={classes.description}>
+                    My first project on game development. Includes animations, jumping, collisions and scoring.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
@@ -106,21 +128,20 @@ class SectionProject extends React.Component {
                   <img src={team3} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Kendall Jenner
+                  Compiler
                   <br />
-                  <small className={classes.smallTitle}>Model</small>
+                  <small className={classes.smallTitle}>C++ to MIPS compiler</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    You can write here details about one of your team members.
-                    You can give more details about what they do. Feel free to
-                    add some <a href="#pablo">links</a> for people to be able to
-                    follow them outside the site.
+                    Individually built a C++ compiler from ground up: From Lexing to Code Generation
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
-                    <i className={classes.socials + " fab fa-twitter"} />
+                  <a href="https://github.com/jovanhan2/Compiler-Cpp" target="_blank" rel="noopener noreferrer" title="Github">
+                   <i className={classes.socialsGitHub + " fab fa-github"} />
+                   </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
                     <i className={classes.socials + " fab fa-instagram"} />
