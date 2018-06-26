@@ -36,10 +36,13 @@ class SectionActivity extends React.Component {
               <div className={classes.typo}>
                 <div className={classes.note}><b>President</b> <br />Imperial College Table Tennis Club <br /> Sept 2017 - June 2018</div>
                 <div className={classes.text}>
-                  <p>Taught EE1-07 Software Engineering 1: Introduction to Computing. Responsible for introducing programming to new undergraduate students.
-                    Developed steadfast presence and revised many deep programming concepts during teaching. Built communication collaboration
-                    skills through working directly with the professor and other teaching assistants
-                  </p>
+                <ul>
+                      <li>Responsible for introducing programming to new undergraduate students.</li>
+                      <li>Developed steadfast presence and revised many deep programming concepts during teaching.</li>
+                      <li>Built communication collaboration
+                    skills through working directly with the professor and other teaching assistants</li>
+                    </ul>
+                  
                 </div>
               </div>
 
