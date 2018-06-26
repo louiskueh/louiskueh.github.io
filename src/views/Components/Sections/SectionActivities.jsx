@@ -4,10 +4,10 @@ import React from "react";
 import withStyles from "material-ui/styles/withStyles";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
-import typographyStyle from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.jsx";
+import activityStyle from "assets/jss/material-kit-react/views/componentsSections/activityStyle.jsx";
 
 import springBoot from "assets/img/springBoot.png";
-class SectionExperience extends React.Component {
+class SectionActivity extends React.Component {
   render() {
     const { classes } = this.props;
     return (
@@ -58,4 +58,4 @@ class SectionExperience extends React.Component {
   }
 }
 
-export default withStyles(typographyStyle)(SectionExperience);
+export default withStyles(activityStyle)(SectionActivity);
