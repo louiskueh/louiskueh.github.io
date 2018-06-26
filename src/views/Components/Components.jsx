@@ -20,6 +20,7 @@ import SectionCarousel from "./Sections/SectionCarousel.jsx";
 import SectionProject from "./Sections/SectionProject.jsx"
 // import SectionAboutMe from "./Sections/SectionAboutMe.jsx"
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
+import SectionActivities from "./Sections/SectionActivities";
 
 class Components extends React.Component {
   render() {
@@ -57,6 +58,7 @@ class Components extends React.Component {
           <SectionCarousel />
           <SectionProject />
           <SectionExperience/>
+          <SectionActivities />
     
         </div>
         <Footer />
