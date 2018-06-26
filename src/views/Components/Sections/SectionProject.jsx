@@ -84,7 +84,8 @@ class SectionProject extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    Developed with the React. I wanted to explore the usefulness of React and ended up creating a website.
+                    Developed with the React. I wanted to explore the usefulness of React and ended up creating a website. Also experimented with 
+                    continuous integration via Travis CI
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
