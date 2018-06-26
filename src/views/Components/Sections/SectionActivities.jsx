@@ -6,7 +6,6 @@ import withStyles from "material-ui/styles/withStyles";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import activityStyle from "assets/jss/material-kit-react/views/componentsSections/activityStyle.jsx";
 
-import springBoot from "assets/img/springBoot.png";
 class SectionActivity extends React.Component {
   render() {
     const { classes } = this.props;
