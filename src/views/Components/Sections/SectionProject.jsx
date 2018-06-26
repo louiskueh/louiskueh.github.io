@@ -52,21 +52,21 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                   
-                  <a href="https://github.com/lorenzo2897/vscode-ipe" target="_blank" title="Github">
+                  <a href="https://github.com/lorenzo2897/vscode-ipe" target="_blank" rel="noopener noreferrer" title="Github">
                    <i className={classes.socialsGitHub + " fab fa-github"} />
                    </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
-                  <a href="https://www.youtube.com/watch?v=amuV0z9eVg4" target="_blank" title="Youtube">
+                  <a href="https://www.youtube.com/watch?v=amuV0z9eVg4" target="_blank" rel="noopener noreferrer" title="Youtube">
                   <i className={classes.socialsYoutube + " fab fa-youtube"} />
                   </a>
                 </IconButton>
               
-                <a href="https://angular.io/" target="_blank" title="Angular">
+                <a href="https://angular.io/" target="_blank" rel="noopener noreferrer" title="Angular">
                 <i style={{fontSize:100}} class="devicon-angularjs-plain-wordmark colored"></i>
                 </a>
 
-                <a href="https://code.visualstudio.com/docs/editor/whyvscode" target="_blank" title="VS Code">
+                <a href="https://code.visualstudio.com/docs/editor/whyvscode" target="_blank" rel="noopener noreferrer" title="VS Code">
                 <i style={{fontSize:100,position:"relative",left:10}}class="devicon-visualstudio-plain-wordmark colored"></i>
                 </a>
                 </CardFooter>
