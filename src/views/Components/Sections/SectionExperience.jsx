@@ -23,11 +23,11 @@ class SectionExperience extends React.Component {
                 <div className={classes.text}>
                   <h3>Buisness Case </h3>
                   <p>Developed a (Java) web application to automate SQL queries which were manually changed every day in the backend, after which the results were copied and pasted into a SharePoint document - taking up to 2 hours
-                  every day.<br /> <br />  With the application, the process was <b>12 times faster</b> - taking up to <i>10 minutes</i>  for the same task.</p> 
+                  every day.<br />  With the application, the process was <b>12 times faster</b> - taking up to <i>10 minutes</i>  for the same task.</p> 
                   <h3>Overall Impression</h3>
                   <p>
                     As someone who had limited Java experience before undertaking the project, I thoroughly enjoyed learning new technologies and the experience of delivering a solution in a work place setting.
-                    <br /><br />I was particularly impressed with <b>SonarQube</b>, which is an industry standard tool for quality assurance. It ensures your code is clean - for example making sure there are no unhandled exceptions and also gives a hard statistical number on your code coverage from testing. </p>
+                    <br />I was particularly impressed with <b>SonarQube</b>, which is an industry standard tool for quality assurance. It ensures your code is clean - for example making sure there are no unhandled exceptions and also gives a hard statistical number on your code coverage from testing. </p>
                   <h3>Technologies</h3>
                   <div className={classes.iconSize}>
                     <svg viewBox="0 0 128 128" width="10%" height="10%">
