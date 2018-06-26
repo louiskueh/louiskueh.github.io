@@ -8,14 +8,6 @@ import carouselStyle from "assets/jss/material-kit-react/views/componentsSection
 class SectionAboutMe extends React.Component {
   render() {
     const { classes } = this.props;
-    const settings = {
-      dots: true,
-      infinite: true,
-      speed: 500,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: false
-    };
     return (
       <div className={classes.section}>
         <div className={classes.container}>

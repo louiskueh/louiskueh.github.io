@@ -3,8 +3,7 @@ import React from "react";
 import Carousel from "react-slick";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
-// @material-ui/icons
-import LocationOn from "@material-ui/icons/LocationOn";
+
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -31,14 +30,14 @@ class SectionCarousel extends React.Component {
       slidesToScroll: 1,
       autoplay: false
     };
-    const styles = {
-      link: {
-        color: "white",
-        ":hover": {
-          color: "red",
-        },
-      },
-    };
+    // const styles = {
+    //   link: {
+    //     color: "white",
+    //     ":hover": {
+    //       color: "red",
+    //     },
+    //   },
+    // };
     return (
       <div className={classes.section}>
         <div className={classes.container}>

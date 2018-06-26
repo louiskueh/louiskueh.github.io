@@ -16,10 +16,9 @@ import IconButton from "components/CustomButtons/IconButton.jsx";
 
 import projectStyle from "assets/jss/material-kit-react/views/componentsSections/projectStyle.jsx";
 import vsCode from "assets/gifs/VSCode.gif";
-import team1 from "assets/img/faces/avatar.jpg";
+
 import team2 from "assets/img/faces/christian.jpg";
 import team3 from "assets/img/faces/kendall.jpg";
-import { Icon } from "material-ui";
 
 class SectionProject extends React.Component {
   render() {

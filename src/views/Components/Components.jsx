@@ -2,7 +2,6 @@ import React from "react";
 // nodejs library that concatenates classes
 import classNames from "classnames";
 // react components for routing our app without refresh
-import { Link } from "react-router-dom";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
 // @material-ui/icons
@@ -11,7 +10,6 @@ import Header from "components/Header/Header.jsx";
 import Footer from "components/Footer/Footer.jsx";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
-import Button from "components/CustomButtons/Button.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
@@ -20,7 +18,7 @@ import SectionTypography from "./Sections/SectionTypography.jsx";
 import SectionCarousel from "./Sections/SectionCarousel.jsx";
 
 import SectionProject from "./Sections/SectionProject.jsx"
-import SectionAboutMe from "./Sections/SectionAboutMe.jsx"
+// import SectionAboutMe from "./Sections/SectionAboutMe.jsx"
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 
 class Components extends React.Component {
@@ -55,7 +53,7 @@ class Components extends React.Component {
         </Parallax>
 
         <div className={classNames(classes.main, classes.mainRaised)}>
-          <SectionAboutMe />
+          {/* <SectionAboutMe /> */}
           <SectionCarousel />
           <SectionProject />
           <SectionTypography />
