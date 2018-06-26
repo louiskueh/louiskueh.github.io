@@ -13,7 +13,7 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Parallax from "components/Parallax/Parallax.jsx";
 // sections for this page
 import HeaderLinks from "components/Header/HeaderLinks.jsx";
-import SectionTypography from "./Sections/SectionTypography.jsx";
+import SectionExperience from "./Sections/SectionExperience.jsx";
 
 import SectionCarousel from "./Sections/SectionCarousel.jsx";
 
@@ -56,7 +56,7 @@ class Components extends React.Component {
           {/* <SectionAboutMe /> */}
           <SectionCarousel />
           <SectionProject />
-          <SectionTypography />
+          <SectionExperience/>
     
         </div>
         <Footer />

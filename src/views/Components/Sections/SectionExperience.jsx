@@ -7,7 +7,7 @@ import GridContainer from "components/Grid/GridContainer.jsx";
 import typographyStyle from "assets/jss/material-kit-react/views/componentsSections/typographyStyle.jsx";
 
 import springBoot from "assets/img/springBoot.png";
-class SectionTypography extends React.Component {
+class SectionExperience extends React.Component {
   render() {
     const { classes } = this.props;
     return (
@@ -58,4 +58,4 @@ class SectionTypography extends React.Component {
   }
 }
 
-export default withStyles(typographyStyle)(SectionTypography);
+export default withStyles(typographyStyle)(SectionExperience);
