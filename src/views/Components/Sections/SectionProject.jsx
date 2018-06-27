@@ -43,24 +43,24 @@ class SectionProject extends React.Component {
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
-                  
-                  <a href="https://github.com/lorenzo2897/vscode-ipe" target="_blank" rel="noopener noreferrer" title="Github">
-                   <i className={classes.socialsGitHub + " fab fa-github"} />
-                   </a>
+
+                    <a href="https://github.com/lorenzo2897/vscode-ipe" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                    </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
-                  <a href="https://www.youtube.com/watch?v=amuV0z9eVg4" target="_blank" rel="noopener noreferrer" title="Youtube">
-                  <i className={classes.socialsYoutube + " fab fa-youtube"} />
-                  </a>
-                </IconButton>
-              
-                <a href="https://angular.io/" target="_blank" rel="noopener noreferrer" title="Angular">
-                <i style={{fontSize:100}} class="devicon-angularjs-plain-wordmark colored"></i>
-                </a>
+                    <a href="https://www.youtube.com/watch?v=amuV0z9eVg4" target="_blank" rel="noopener noreferrer" title="Youtube">
+                      <i className={classes.socialsYoutube + " fab fa-youtube"} />
+                    </a>
+                  </IconButton>
 
-                <a href="https://code.visualstudio.com/docs/editor/whyvscode" target="_blank" rel="noopener noreferrer" title="VS Code">
-                <i style={{fontSize:100,position:"relative",left:10}}class="devicon-visualstudio-plain-wordmark colored"></i>
-                </a>
+                  <a href="https://angular.io/" target="_blank" rel="noopener noreferrer" title="Angular">
+                    <i style={{ fontSize: 100 }} class="devicon-angularjs-plain-wordmark colored"></i>
+                  </a>
+
+                  <a href="https://code.visualstudio.com/docs/editor/whyvscode" target="_blank" rel="noopener noreferrer" title="VS Code">
+                    <i style={{ fontSize: 100, position: "relative", left: 10 }} class="devicon-visualstudio-plain-wordmark colored"></i>
+                  </a>
                 </CardFooter>
               </Card>
             </GridItem>
@@ -72,21 +72,29 @@ class SectionProject extends React.Component {
                 <h4 className={classes.cardTitle}>
                   louiskueh.com
                   <br />
-                  <small className={classes.smallTitle}>A material design porfolio</small>
+                  <small className={classes.smallTitle}>A material design porfolio developed from ground up</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    Developed with the React. I wanted to explore the usefulness of React and ended up creating a website. Also experimented with 
-                    continuous integration via Travis CI
+                    With over <b>140</b> commits and counting this project has been worked on since the start of 2018. You can also view my previous website
+                    <a href="https://louiskueh.com/oldWebsite" target="_blank" rel="noopener noreferrer" title="Old Website"> here </a>
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
-                    <i className={classes.socials + " fab fa-twitter"} />
+                    <a href="https://github.com/jovanhan2/jovanhan2.github.io" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                    </a>
                   </IconButton>
-                  <IconButton color="transparent" className={classes.margin5}>
-                    <i className={classes.socials + " fab fa-linkedin"} />
-                  </IconButton>
+                  <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" title="Angular">
+                    <i style={{ fontSize: 40,position: "relative", right: 4  }} class="devicon-react-original-wordmark colored"></i>
+                  </a>
+                  <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" title="Angular">
+                    <i style={{ fontSize: 40}} class="devicon-nodejs-plain colored"></i>
+                  </a>
+                  <a href="https://travis-ci.org/" target="_blank" rel="noopener noreferrer" title="Angular">
+                    <i style={{ fontSize: 40,position: "relative", left: 7  }} class="devicon-travis-plain-wordmark colored"></i>
+                  </a>
                 </CardFooter>
               </Card>
             </GridItem>
@@ -132,9 +140,9 @@ class SectionProject extends React.Component {
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
-                  <a href="https://github.com/jovanhan2/Compiler-Cpp" target="_blank" rel="noopener noreferrer" title="Github">
-                   <i className={classes.socialsGitHub + " fab fa-github"} />
-                   </a>
+                    <a href="https://github.com/jovanhan2/Compiler-Cpp" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                    </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
                     <i className={classes.socials + " fab fa-instagram"} />
