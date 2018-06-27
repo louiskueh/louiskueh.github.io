@@ -16,7 +16,7 @@ import HeaderLinks from "components/Header/HeaderLinks.jsx";
 import SectionExperience from "./Sections/SectionExperience.jsx";
 
 import SectionCarousel from "./Sections/SectionCarousel.jsx";
-import SectionAboutMe from "./Sections/SectionAboutMe.jsx"
+import SectionAboutMe from "./Sections/SectionAboutMe"
 import SectionProject from "./Sections/SectionProject.jsx"
 // import SectionAboutMe from "./Sections/SectionAboutMe.jsx"
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
@@ -27,7 +27,7 @@ class Components extends React.Component {
     const { classes, ...rest } = this.props;
     return (
       <div>
-        {/* <Header
+        <Header
           brand="Louis Kueh"
           rightLinks={<HeaderLinks />}
           fixed
@@ -50,14 +50,14 @@ class Components extends React.Component {
               </GridItem>
             </GridContainer>
           </div>
-        </Parallax> */}
+        </Parallax>
 
         <div className={classNames(classes.main, classes.mainRaised)}>
           <SectionAboutMe />
-          {/* <SectionCarousel />
+          <SectionCarousel />
           <SectionProject />
           <SectionExperience/>
-          <SectionActivities /> */}
+          <SectionActivities />
     
         </div>
         <Footer />
