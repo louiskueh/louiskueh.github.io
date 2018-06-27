@@ -1,22 +1,14 @@
 import React from "react";
-// nodejs library that concatenates classes
 import classNames from "classnames";
-// material-ui components
 import withStyles from "material-ui/styles/withStyles";
-
-// @material-ui/icons
-
-// core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import CardBody from "components/Card/CardBody.jsx";
 import CardFooter from "components/Card/CardFooter.jsx";
 import IconButton from "components/CustomButtons/IconButton.jsx";
-
 import projectStyle from "assets/jss/material-kit-react/views/componentsSections/projectStyle.jsx";
 import vsCode from "assets/gifs/VSCode.gif";
-
 import team2 from "assets/img/faces/christian.jpg";
 import team3 from "assets/img/faces/kendall.jpg";
 
