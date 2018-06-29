@@ -5,6 +5,7 @@ import withStyles from "material-ui/styles/withStyles";
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import activityStyle from "assets/jss/material-kit-react/views/componentsSections/activityStyle.jsx";
+import GridItem from "../../../components/Grid/GridItem";
 
 class SectionActivity extends React.Component {
   render() {
@@ -17,6 +18,7 @@ class SectionActivity extends React.Component {
               <h1>Activities</h1>
             </div>
             <GridContainer>
+              <GridItem>
               <div className={classes.typo}>
                 <div className={classes.note}><b>Undergraduate Teaching Assistant</b> <br />Imperial College<br /> Spring 2018</div>
                 <div className={classes.text}>
@@ -32,6 +34,8 @@ class SectionActivity extends React.Component {
                   
                 </div>
               </div>
+              </GridItem>
+              <GridItem>
               <div className={classes.typo}>
                 <div className={classes.note}><b>President</b> <br />Imperial College Table Tennis Club <br /> Sept 2017 - June 2018</div>
                 <div className={classes.text}>
@@ -44,6 +48,8 @@ class SectionActivity extends React.Component {
                   
                 </div>
               </div>
+              </GridItem>
+              <GridItem>
 
               <div className={classes.typo}>
                 <div className={classes.note}><b>Insight Scheme </b>| Teach First <br /> Spring 2017</div>
@@ -60,7 +66,7 @@ class SectionActivity extends React.Component {
 
 
               </div>
-
+              </GridItem>
             </GridContainer>
           </div>
 
