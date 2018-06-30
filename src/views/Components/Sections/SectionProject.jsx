@@ -11,7 +11,7 @@ import projectStyle from "assets/jss/material-kit-react/views/componentsSections
 import vsCode from "assets/gifs/VSCode.gif";
 import team2 from "assets/img/faces/christian.jpg";
 import team3 from "assets/img/faces/kendall.jpg";
-
+import website from "assets/gifs/website.gif"
 class SectionProject extends React.Component {
   render() {
     const { classes } = this.props;
@@ -67,7 +67,7 @@ class SectionProject extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={6} className={classes.itemGrid}>
-                  <img src={team2} alt="..." className={imageClasses} />
+                  <img src={website} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   louiskueh.com
