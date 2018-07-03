@@ -12,7 +12,7 @@ import carouselStyle from "assets/jss/material-kit-react/views/componentsSection
 
 import image1 from "assets/gifs/VSCode.gif";
 import image2 from "assets/gifs/Unity2Dplatformer.gif";
-import image3 from "assets/gifs/2048.gif";
+import game2048 from "assets/gifs/game2048.gif";
 import Interactive from 'react-interactive';
 
 class SectionCarousel extends React.Component {
@@ -107,7 +107,7 @@ class SectionCarousel extends React.Component {
                   </div>
                   <div>
                     <img
-                      src={image3}
+                      src={game2048}
                       width={imageWidth}
                       height={imageHeight}
                       alt="Third slide"

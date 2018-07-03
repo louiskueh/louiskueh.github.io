@@ -10,7 +10,7 @@ import IconButton from "components/CustomButtons/IconButton.jsx";
 import projectStyle from "assets/jss/material-kit-react/views/componentsSections/projectStyle.jsx";
 import vsCode from "assets/gifs/VSCode.gif";
 import team2 from "assets/img/faces/christian.jpg";
-import team3 from "assets/img/faces/kendall.jpg";
+import game2048 from "assets/gifs/game2048.gif";
 import website from "assets/gifs/website.gif"
 class SectionProject extends React.Component {
   render() {
@@ -135,7 +135,7 @@ class SectionProject extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    Individually built a C++ compiler from ground up: From Lexing to Code Generation
+                    Individually built a C++ compiler from ground up: from Lexing to Code Generation
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
@@ -144,11 +144,30 @@ class SectionProject extends React.Component {
                       <i className={classes.socialsGitHub + " fab fa-github"} />
                     </a>
                   </IconButton>
+                  {/* C++ Logo here  */}
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
+                  <img src={game2048} alt="..." className={imageClasses} />
+                </GridItem>
+                <h4 className={classes.cardTitle}>
+                  2048
+                  <br />
+                  <small className={classes.smallTitle}>Based on the popular 2048 game </small>
+                </h4>
+                <CardBody>
+                  <p className={classes.description}>
+                    Developed my own take of the 2048 game as one of my first programming projects
+                  </p>
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
-                    <i className={classes.socials + " fab fa-instagram"} />
-                  </IconButton>
-                  <IconButton color="transparent" className={classes.margin5}>
-                    <i className={classes.socials + " fab fa-facebook"} />
+                    <a href="https://github.com/jovanhan2/2048" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                    </a>
                   </IconButton>
                 </CardFooter>
               </Card>
