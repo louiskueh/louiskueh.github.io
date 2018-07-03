@@ -15,7 +15,7 @@ import image2 from "assets/gifs/Unity2Dplatformer.gif";
 import game2048 from "assets/gifs/2048.gif";
 import vsCodeHackbooth from "assets/img/hackbooth.jpg"
 import Interactive from 'react-interactive';
-
+import LocationOn from "@material-ui/icons/LocationOn";
 class SectionCarousel extends React.Component {
   render() {
   const imageHeight = 559
