@@ -18,7 +18,8 @@ class SectionActivity extends React.Component {
               <h1>Activities</h1>
             </div>
             <GridContainer>
-              <GridItem>
+            <GridItem>
+             
               <div className={classes.typo}>
                 <div className={classes.note}><b>Undergraduate Teaching Assistant</b> <br />Imperial College<br /> Spring 2018</div>
                 <div className={classes.text}>
@@ -34,6 +35,23 @@ class SectionActivity extends React.Component {
                   
                 </div>
               </div>
+              </GridItem>
+              <GridItem>
+              <div className={classes.typo}>
+                <div className={classes.note}><b>Hackathon</b> <br />Health themed<br /> Spring 2017</div>
+                <div className={classes.text}>
+                  <h4>Developed a 2d side scrolling game for individuals with cystic fibrosis </h4>
+                     
+                    <ul>
+                      <li>Participants controlled the game using a breatherlyzer</li>
+                      <li>Playing the game would encourage deep and controlled breathing, helping participants combat their condition</li>
+                    </ul>
+                  
+                  
+                </div>
+              </div>
+              </GridItem>
+              <GridItem>
               </GridItem>
               <GridItem>
               <div className={classes.typo}>
