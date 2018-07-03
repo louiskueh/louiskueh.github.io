@@ -10,7 +10,7 @@ import IconButton from "components/CustomButtons/IconButton.jsx";
 import projectStyle from "assets/jss/material-kit-react/views/componentsSections/projectStyle.jsx";
 import vsCode from "assets/gifs/VSCode.gif";
 import team2 from "assets/img/faces/christian.jpg";
-import game2048 from "assets/gifs/game2048.gif";
+import game2048 from "assets/gifs/2048.gif";
 import website from "assets/gifs/website.gif"
 class SectionProject extends React.Component {
   render() {
