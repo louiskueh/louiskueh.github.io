@@ -129,6 +129,32 @@ class SectionProject extends React.Component {
                   <img src={team3} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
+                  Internet of Things Table Tennis Device
+                  <br />
+                  <small className={classes.smallTitle}>PYTHON &amp; MICROPYTHON, ESP8266 BOARD,HMC5883L MAGNETOMETER, LIS3DH TRIPLE-AXIS ACCELEROMETE</small>
+                </h4>
+                <CardBody>
+                  <p className={classes.description}>
+                  Developed an embedded system that recognizes table tennis swings and offers feedback &amp; statistics via an MQTT broker.
+                  Utilizes low power communications protocols such as MQTT, and optimized code for memory efficiency
+                  </p>
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href="https://github.com/jovanhan2/Pikachu" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                    </a>
+                  </IconButton>
+                  {/* C++ Logo here  */}
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
+                  <img src={team3} alt="..." className={imageClasses} />
+                </GridItem>
+                <h4 className={classes.cardTitle}>
                   Compiler
                   <br />
                   <small className={classes.smallTitle}>C++ to MIPS compiler</small>
@@ -172,7 +198,42 @@ class SectionProject extends React.Component {
                 </CardFooter>
               </Card>
             </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
+                  <img src={website} alt="..." className={imageClasses} />
+                </GridItem>
+                <h4 className={classes.cardTitle}>
+                  Graphics
+                  <br />
+                  <small className={classes.smallTitle}>Developed ray tracing algorithm to display teapot</small>
+                </h4>
+                <CardBody>
+                  <p className={classes.description}>
+                    With over <b>140</b> commits and counting this project has been worked on since the start of 2018. You can also view my previous website
+                    <a href="https://louiskueh.com/oldWebsite" target="_blank" rel="noopener noreferrer" title="Old Website"> here </a>
+                  </p>
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href="https://github.com/jovanhan2/jovanhan2.github.io" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                    </a>
+                  </IconButton>
+                  <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" title="Angular">
+                    <i style={{ fontSize: 40,position: "relative", right: 4  }} class="devicon-react-original-wordmark colored"></i>
+                  </a>
+                  <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" title="Angular">
+                    <i style={{ fontSize: 40}} class="devicon-nodejs-plain colored"></i>
+                  </a>
+                  <a href="https://travis-ci.org/" target="_blank" rel="noopener noreferrer" title="Angular">
+                    <i style={{ fontSize: 40,position: "relative", left: 7  }} class="devicon-travis-plain-wordmark colored"></i>
+                  </a>
+                </CardFooter>
+              </Card>
+            </GridItem>
           </GridContainer>
+          
         </div>
       </div>
     );
