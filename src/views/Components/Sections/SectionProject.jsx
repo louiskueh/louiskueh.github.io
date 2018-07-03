@@ -141,7 +141,7 @@ class SectionProject extends React.Component {
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
-                    <a href="https://github.com/jovanhan2/Pikachu" target="_blank" rel="noopener noreferrer" title="Github">
+                    <a href="https://github.com/jovanhan2/Internet-of-Things-Table-Tennis-Device" target="_blank" rel="noopener noreferrer" title="Github">
                       <i className={classes.socialsGitHub + " fab fa-github"} />
                     </a>
                   </IconButton>
