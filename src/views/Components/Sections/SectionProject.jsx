@@ -47,7 +47,7 @@ class SectionProject extends React.Component {
                   <IconButton color="transparent" className={classes.margin5}>
 
                     <a href="https://github.com/lorenzo2897/vscode-ipe" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                      <i class="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
@@ -55,14 +55,16 @@ class SectionProject extends React.Component {
                       <i className={classes.socialsYoutube + " fab fa-youtube"} />
                     </a>
                   </IconButton>
-
-                  <a href="https://angular.io/" target="_blank" rel="noopener noreferrer" title="Angular">
-                    <i style={{ fontSize: 100 }} class="devicon-angularjs-plain-wordmark colored"></i>
-                  </a>
-
-                  <a href="https://code.visualstudio.com/docs/editor/whyvscode" target="_blank" rel="noopener noreferrer" title="VS Code">
-                    <i style={{ fontSize: 100, position: "relative", left: 10 }} class="devicon-visualstudio-plain-wordmark colored"></i>
-                  </a>
+                  <IconButton color="transparent" >
+                    <a href="https://angular.io/" target="_blank" rel="noopener noreferrer" title="Angular">
+                      <i class="devicon-angularjs-plain colored"></i>
+                    </a>
+                  </IconButton>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href="https://code.visualstudio.com/docs/editor/whyvscode" target="_blank" rel="noopener noreferrer" title="VS Code">
+                      <i class="devicon-visualstudio-plain colored"></i>
+                    </a>
+                  </IconButton>
                 </CardFooter>
               </Card>
             </GridItem>
@@ -85,7 +87,7 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/jovanhan2.github.io" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                      <i class="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                   <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" title="Angular">
@@ -116,11 +118,16 @@ class SectionProject extends React.Component {
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
+
                   <IconButton color="transparent" className={classes.margin5}>
-                    <i className={classes.socials + " fab fa-twitter"} />
+                    <a href="https://github.com/jovanhan2/Simple2DPlatformer" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i class="devicon-github-plain colored"></i>
+                    </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
-                    <i className={classes.socials + " fab fa-linkedin"} />
+                    <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i class="devicon-csharp-plain colored"></i>
+                    </a>
                   </IconButton>
                 </CardFooter>
               </Card>
@@ -128,33 +135,37 @@ class SectionProject extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                <img src={embeddedCW1} alt="..." className={imageClasses} />
+                  <img src={embeddedCW1} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   Internet of Things Table Tennis Device
                   <br />
-                  <small className={classes.smallTitle}>Python, HMC5883L Magnetometer, LIS3DH Triple-Axis Accelerometer</small>
+                  <small className={classes.smallTitle}>HMC5883L Magnetometer, LIS3DH Triple-Axis Accelerometer</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
                     Developed an embedded system that recognizes table tennis swings and offers feedback &amp; statistics via an MQTT broker.
-                    Utilizes low power communications protocols such as MQTT, and optimized code for memory efficiency
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/Internet-of-Things-Table-Tennis-Device" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                    <i class="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
-                  {/* C++ Logo here  */}
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" title="Github">
+                    <i class="devicon-python-plain colored"></i>
+                    </a>
+                  </IconButton>
+             
                 </CardFooter>
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                  <img src={game2048} alt="..." className={imageClasses} />
+                  <img src={embeddedCW2} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   Brushless motor
@@ -169,7 +180,7 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/2048" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                      <i class="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                 </CardFooter>
@@ -193,7 +204,7 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/Compiler-Cpp" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                      <i class="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                   {/* C++ Logo here  */}
@@ -218,7 +229,7 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/2048" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                      <i class="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                 </CardFooter>
@@ -243,7 +254,7 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/jovanhan2.github.io" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                      <i class="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                 </CardFooter>
