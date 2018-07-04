@@ -12,6 +12,8 @@ import vsCode from "assets/gifs/VSCode.gif";
 import game2048 from "assets/gifs/2048.gif";
 import website from "assets/gifs/website.gif"
 import unityPlatformer from "assets/gifs/Unity2Dplatformer.gif";
+import embeddedCW1 from "assets/img/tabletennis.png"
+import embeddedCW2 from "assets/img/embeddedCW2.PNG"
 class SectionProject extends React.Component {
   render() {
     const { classes } = this.props;
@@ -87,13 +89,13 @@ class SectionProject extends React.Component {
                     </a>
                   </IconButton>
                   <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" title="Angular">
-                    <i style={{ fontSize: 40,position: "relative", right: 4  }} class="devicon-react-original-wordmark colored"></i>
+                    <i style={{ fontSize: 40, position: "relative", right: 4 }} class="devicon-react-original-wordmark colored"></i>
                   </a>
                   <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" title="Angular">
-                    <i style={{ fontSize: 40}} class="devicon-nodejs-plain colored"></i>
+                    <i style={{ fontSize: 40 }} class="devicon-nodejs-plain colored"></i>
                   </a>
                   <a href="https://travis-ci.org/" target="_blank" rel="noopener noreferrer" title="Angular">
-                    <i style={{ fontSize: 40,position: "relative", left: 7  }} class="devicon-travis-plain-wordmark colored"></i>
+                    <i style={{ fontSize: 40, position: "relative", left: 7 }} class="devicon-travis-plain-wordmark colored"></i>
                   </a>
                 </CardFooter>
               </Card>
@@ -126,17 +128,17 @@ class SectionProject extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                  <img src={game2048} alt="..." className={imageClasses} />
+                <img src={embeddedCW1} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   Internet of Things Table Tennis Device
                   <br />
-                  <small className={classes.smallTitle}>PYTHON &amp; MICROPYTHON, ESP8266 BOARD,HMC5883L MAGNETOMETER, LIS3DH TRIPLE-AXIS ACCELEROMETE</small>
+                  <small className={classes.smallTitle}>Python, HMC5883L Magnetometer, LIS3DH Triple-Axis Accelerometer</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                  Developed an embedded system that recognizes table tennis swings and offers feedback &amp; statistics via an MQTT broker.
-                  Utilizes low power communications protocols such as MQTT, and optimized code for memory efficiency
+                    Developed an embedded system that recognizes table tennis swings and offers feedback &amp; statistics via an MQTT broker.
+                    Utilizes low power communications protocols such as MQTT, and optimized code for memory efficiency
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
@@ -155,7 +157,7 @@ class SectionProject extends React.Component {
                   <img src={game2048} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Brushless motor 
+                  Brushless motor
                   <br />
                   <small className={classes.smallTitle}>Threads</small>
                 </h4>
@@ -248,7 +250,7 @@ class SectionProject extends React.Component {
               </Card>
             </GridItem>
           </GridContainer>
-          
+
         </div>
       </div>
     );
