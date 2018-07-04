@@ -11,7 +11,7 @@ import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
 
 import image1 from "assets/gifs/VSCode.gif";
-import image2 from "assets/gifs/Unity2Dplatformer.gif";
+import unityPlatformer from "assets/gifs/Unity2Dplatformer.gif";
 import game2048 from "assets/gifs/2048.gif";
 import vsCodeHackbooth from "assets/img/hackbooth.jpg"
 import Interactive from 'react-interactive';
@@ -110,7 +110,7 @@ class SectionCarousel extends React.Component {
                   </div>
                   <div>
                     <img
-                      src={image2}
+                      src={unityPlatformer}
                       width={imageWidth}
                       height={imageHeight}
                       alt="Second slide"

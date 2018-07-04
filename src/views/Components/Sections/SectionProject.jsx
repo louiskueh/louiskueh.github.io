@@ -9,9 +9,9 @@ import CardFooter from "components/Card/CardFooter.jsx";
 import IconButton from "components/CustomButtons/IconButton.jsx";
 import projectStyle from "assets/jss/material-kit-react/views/componentsSections/projectStyle.jsx";
 import vsCode from "assets/gifs/VSCode.gif";
-import team2 from "assets/img/faces/christian.jpg";
 import game2048 from "assets/gifs/2048.gif";
 import website from "assets/gifs/website.gif"
+import unityPlatformer from "assets/gifs/Unity2Dplatformer.gif";
 class SectionProject extends React.Component {
   render() {
     const { classes } = this.props;
@@ -101,7 +101,7 @@ class SectionProject extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                  <img src={team2} alt="..." className={imageClasses} />
+                  <img src={unityPlatformer} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   2D platformer
