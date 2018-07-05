@@ -26,7 +26,7 @@ class SectionExperience extends React.Component {
                       <img
                         src={deutsche}
                         alt="First slide"
-                        style={{height:"20px",width:"22px", position:"relative",bottom:"3px",paddingRight:"5px"}}
+                        style={{height:"4%",width:"4%", position:"relative",bottom:"3px",paddingRight:"5px"}}
                         className="slick-image"
                       />
                     </a>

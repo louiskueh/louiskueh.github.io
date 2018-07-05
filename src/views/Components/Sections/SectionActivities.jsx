@@ -6,7 +6,8 @@ import withStyles from "material-ui/styles/withStyles";
 import GridContainer from "components/Grid/GridContainer.jsx";
 import activityStyle from "assets/jss/material-kit-react/views/componentsSections/activityStyle.jsx";
 import GridItem from "../../../components/Grid/GridItem";
-
+import imperial from "assets/img/imperial.png"
+import healthHack from "assets/img/healthhack.jpg"
 class SectionActivity extends React.Component {
   render() {
     const { classes } = this.props;
@@ -21,16 +22,17 @@ class SectionActivity extends React.Component {
               <GridItem>
 
                 <div className={classes.typo}>
-                  <a href="https://www.db.com/unitedkingdom/" target="_blank" rel="noopener noreferrer" title="Github">
+                  
+                  <div className={classes.note}>
+                  <a href="https://www.imperial.ac.uk/" target="_blank" rel="noopener noreferrer" title="Github">
                     <img
-                      src={""}
+                      src={imperial}
                       alt="Imperial College"
-                      style={{ height: "20px", width: "22px", position: "relative", bottom: "3px", paddingRight: "5px" }}
+                      style={{ height:"5%",width:"5%", position: "relative", bottom: "3px", paddingRight: "5px" }}
                       className="slick-image"
                     />
-                  </a>
-                  <div className={classes.note}><b>Undergraduate Teaching Assistant </b>
-                    | Imperial College | Spring 2018</div>
+                  </a><b>Undergraduate Teaching Assistant </b>
+                    | Imperial College London | Spring 2018</div>
                   <div className={classes.text}>
                     <hr />
                     <h4>Taught EE1-07 Software Engineering 1: Introduction to Computing. </h4>
@@ -48,7 +50,15 @@ class SectionActivity extends React.Component {
               </GridItem>
               <GridItem>
                 <div className={classes.typo}>
-                  <div className={classes.note}><b>Hackathon</b> | Spring 2017</div>
+                  <div className={classes.note}>
+                  <a href="https://ichealthhack.github.io/" target="_blank" rel="noopener noreferrer" title="Github">
+                    <img
+                      src={healthHack}
+                      alt="healthHack"
+                      style={{ height:"15%",width:"15%", position: "relative", bottom: "3px", paddingRight: "10px" }}
+                      className="slick-image"
+                    />
+                  </a><b>Hackathon</b> | Spring 2017</div>
                   <div className={classes.text}>
                   <hr />
                     <h4>Developed a 2d side scrolling game for individuals with cystic fibrosis </h4>
