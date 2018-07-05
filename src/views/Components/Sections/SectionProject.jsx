@@ -108,6 +108,40 @@ class SectionProject extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
+                  <img src={website} alt="..." className={imageClasses} />
+                </GridItem>
+                <h4 className={classes.cardTitle}>
+                  studentfinancetips.org
+                  <br />
+                  <small className={classes.smallTitle}>My own personal brand  </small>
+                </h4>
+                <CardBody>
+                  <p className={classes.description}>
+                    A simple, no fuss blog designed in HTML,CSS and bootstrap. Designed to give insight into student life and offer finance tips. You can view it
+                    <a href="http://studentfinancetips.org/Imperial-College/" target="_blank" rel="noopener noreferrer" title="Old Website"> here </a>
+                  </p>
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href="https://github.com/jovanhan2/jovanhan2.github.io" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className="devicon-github-plain colored"></i>
+                    </a>
+                  </IconButton>
+                  <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" title="Angular">
+                    <i style={{ fontSize: 40, position: "relative", right: 4 }} className="devicon-html5-plain-wordmark colored"></i>
+                  </a>
+                  <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" title="Angular">
+                    <i style={{ fontSize: 40 }} className="devicon-css3-plain-wordmark colored"></i>
+                  </a>
+                  <a href="https://travis-ci.org/" target="_blank" rel="noopener noreferrer" title="Angular">
+                    <i style={{ fontSize: 40, position: "relative", left: 7 }} className="devicon-bootstrap-plain-wordmark colored"></i>
+                  </a>
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                   <img src={IBM} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
@@ -117,19 +151,19 @@ class SectionProject extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    Coached by IBM mentors in computer architectural design. Solved an original real-life architectural problem and presented to IBM as a client.
+                    Coached by IBM mentors in computer architectural design. Solved and presented original real-life architectural problems.
                   </p>
 
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                    <IconButton color="transparent" className={classes.margin5}>
-                      <a href="https://www.ibm.com/uk-en/" target="_blank" rel="noopener noreferrer" title="Github">
-                        <img style={{
-                          width: "30px",
-                          height: "10px"
-                        }} src={IBMLogo} alt="..." />
-                      </a>
-                    </IconButton>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href="https://www.ibm.com/uk-en/" target="_blank" rel="noopener noreferrer" title="Github">
+                      <img style={{
+                        width: "30px",
+                        height: "10px"
+                      }} src={IBMLogo} alt="..." />
+                    </a>
+                  </IconButton>
                 </CardFooter>
               </Card>
             </GridItem>
@@ -199,9 +233,9 @@ class SectionProject extends React.Component {
                   <img src={embeddedCW2} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Threads &amp; Control Algorithm - synchronous brushless motor
+                  Control Algorithm - synchronous brushless motor
                   <br />
-                  <small className={classes.smallTitle}>Drove motor using photosensors </small>
+                  <small className={classes.smallTitle}>Drove motor using photosensors via efficent threads </small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
@@ -226,7 +260,7 @@ class SectionProject extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                  <img src={compiler } alt="..." className={imageClasses} />
+                  <img src={compiler} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   Compiler
@@ -269,6 +303,12 @@ class SectionProject extends React.Component {
                       <i className="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href=" https://github.com/jovanhan2/2048/blob/master/Design%20Choices.pdf" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className={classes.socialsYoutube + " far fa-file-pdf"} />
+                    </a>
+                  </IconButton>
+
                 </CardFooter>
               </Card>
             </GridItem>

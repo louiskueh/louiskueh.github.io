@@ -75,7 +75,7 @@ class SectionActivity extends React.Component {
               </GridItem>
               <GridItem>
                 <div className={classes.typo}>
-                  <div className={classes.note}><b>President</b> | Imperial College Table Tennis Club | Sept 2017 - June 2018</div>
+                  <div className={classes.note}><b>President</b> | Imperial College Table Tennis Club | 2018</div>
                   <div className={classes.text}>
                   <hr />
                     <h4>Responsible for overall wellbeing of the club</h4>
