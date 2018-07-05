@@ -8,6 +8,7 @@ import activityStyle from "assets/jss/material-kit-react/views/componentsSection
 import GridItem from "../../../components/Grid/GridItem";
 import imperial from "assets/img/imperial.png"
 import healthHack from "assets/img/healthhack.jpg"
+import teachFirst from "assets/img/teachFirst.png"
 class SectionActivity extends React.Component {
   render() {
     const { classes } = this.props;
@@ -22,16 +23,16 @@ class SectionActivity extends React.Component {
               <GridItem>
 
                 <div className={classes.typo}>
-                  
+
                   <div className={classes.note}>
-                  <a href="https://www.imperial.ac.uk/" target="_blank" rel="noopener noreferrer" title="Github">
-                    <img
-                      src={imperial}
-                      alt="Imperial College"
-                      style={{ height:"5%",width:"5%", position: "relative", bottom: "3px", paddingRight: "5px" }}
-                      className="slick-image"
-                    />
-                  </a><b>Undergraduate Teaching Assistant </b>
+                    <a href="https://www.imperial.ac.uk/" target="_blank" rel="noopener noreferrer" title="Github">
+                      <img
+                        src={imperial}
+                        alt="Imperial College"
+                        style={{ height: "5%", width: "5%", position: "relative", bottom: "3px", paddingRight: "5px" }}
+                        className="slick-image"
+                      />
+                    </a><b>Undergraduate Teaching Assistant </b>
                     | Imperial College London | Spring 2018</div>
                   <div className={classes.text}>
                     <hr />
@@ -51,16 +52,16 @@ class SectionActivity extends React.Component {
               <GridItem>
                 <div className={classes.typo}>
                   <div className={classes.note}>
-                  <a href="https://ichealthhack.github.io/" target="_blank" rel="noopener noreferrer" title="Github">
-                    <img
-                      src={healthHack}
-                      alt="healthHack"
-                      style={{ height:"15%",width:"15%", position: "relative", bottom: "3px", paddingRight: "10px" }}
-                      className="slick-image"
-                    />
-                  </a><b>Hackathon</b> | Spring 2017</div>
+                    <a href="https://ichealthhack.github.io/" target="_blank" rel="noopener noreferrer" title="Github">
+                      <img
+                        src={healthHack}
+                        alt="healthHack"
+                        style={{ height: "15%", width: "15%", position: "relative", bottom: "3px", paddingRight: "10px" }}
+                        className="slick-image"
+                      />
+                    </a><b>Hackathon</b> | Spring 2017</div>
                   <div className={classes.text}>
-                  <hr />
+                    <hr />
                     <h4>Developed a 2d side scrolling game for individuals with cystic fibrosis </h4>
                     <ul>
                       <li>Participants controlled the game using a breathalyzer</li>
@@ -75,9 +76,11 @@ class SectionActivity extends React.Component {
               </GridItem>
               <GridItem>
                 <div className={classes.typo}>
-                  <div className={classes.note}><b>President</b> | Imperial College Table Tennis Club | 2018</div>
+                  <div className={classes.note}>
+                   
+                    <b>President</b> | Imperial College Table Tennis Club | 2018</div>
                   <div className={classes.text}>
-                  <hr />
+                    <hr />
                     <h4>Responsible for overall wellbeing of the club</h4>
                     <ul>
                       <li> Built Node JS app to check if someone is a member of the table tennis club (HTTP request)</li>
@@ -91,9 +94,19 @@ class SectionActivity extends React.Component {
               <GridItem>
 
                 <div className={classes.typo}>
-                  <div className={classes.note}><b>Insight Scheme </b>| Teach First | Spring 2017</div>
+                  <div className={classes.note}>
+                  <a href="https://www.teachfirst.org.uk/" target="_blank" rel="noopener noreferrer" title="Github">
+                      <img
+                        src={teachFirst}
+                        alt="Teach First"
+                        style={{ height: "8%", width: "8%", position: "relative", bottom: "2px", paddingRight: "5px" }}
+                        className="slick-image"
+                      />
+                    </a>
+
+                    <b>Insight Scheme </b>| Teach First | Spring 2017</div>
                   <div className={classes.text}>
-                  <hr />
+                    <hr />
                     <h4>Winner of Best Short-term Insight Scheme - 2017 National Undergraduate Employability Awards   </h4>
                     <ul>
                       <li>Developed leadership, communication &amp; planning skills essential to the classroom at Resource for London</li>
