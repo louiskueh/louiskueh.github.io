@@ -20,7 +20,8 @@ const typographyStyle = {
     textDecoration: "none"
   },
   typo: {
-    paddingLeft: "25%",
+    paddingLeft: "15%",
+    paddingRight:"15%",
     marginBottom: "40px",
     position: "relative",
     width: "100%"
@@ -28,19 +29,12 @@ const typographyStyle = {
   note: {
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
     color: "#c0c1c2",
-    display: "block",
     fontWeight: "400",
     fontSize: "16px",
     lineHeight: "16px",
-    position: "absolute",
-    width: "350px",
-    left:"0px",
-    top:"55px"
+
   },
   text:{
-    display: "block",
-    paddingLeft: "60px",
-    position: "relative",
     top: "30px",
     textAlign: 'justify',
     fontSize:"14px",
