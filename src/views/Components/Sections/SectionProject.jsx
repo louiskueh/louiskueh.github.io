@@ -14,6 +14,8 @@ import website from "assets/gifs/website.gif"
 import unityPlatformer from "assets/gifs/Unity2Dplatformer.gif";
 import embeddedCW1 from "assets/img/tabletennis.png"
 import embeddedCW2 from "assets/img/embeddedCW2.PNG"
+import IBM from "assets/img/IBM.PNG"
+import IBMLogo from "assets/img/IBM_logo.svg"
 class SectionProject extends React.Component {
   render() {
     const { classes } = this.props;
@@ -105,6 +107,36 @@ class SectionProject extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
+                  <img src={IBM} alt="..." className={imageClasses} />
+                </GridItem>
+                <h4 className={classes.cardTitle}>
+                  IBM
+                  <br />
+                  <small className={classes.smallTitle}>Architecture Workshop</small>
+                </h4>
+                <CardBody>
+                  <p className={classes.description}>
+                    Coached by IBM mentors in computer architectural design. Solved an original real-life architectural problem and presented to IBM as a client.
+                  </p>
+
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <IconButton color="transparent" className={classes.margin5}>
+                      <a href="https://www.ibm.com/uk-en/" target="_blank" rel="noopener noreferrer" title="Github">
+                        <img style={{
+                          width: "30px",
+                          height: "10px"
+                        }} src={IBMLogo} alt="..." />
+                      </a>
+                    </IconButton>
+                  </IconButton>
+                </CardFooter>
+              </Card>
+            </GridItem>
+            <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                   <img src={unityPlatformer} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
@@ -144,21 +176,21 @@ class SectionProject extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    Developed an embedded system that recognizes table tennis swings and offers feedback &amp; statistics via an MQTT broker.
+                    An embedded system that offers feedback &amp; statistics for table tennis techniques
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/Internet-of-Things-Table-Tennis-Device" target="_blank" rel="noopener noreferrer" title="Github">
-                    <i class="devicon-github-plain colored"></i>
+                      <i class="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" title="Github">
-                    <i class="devicon-python-plain colored"></i>
+                      <i class="devicon-python-plain colored"></i>
                     </a>
                   </IconButton>
-             
+
                 </CardFooter>
               </Card>
             </GridItem>
@@ -168,22 +200,28 @@ class SectionProject extends React.Component {
                   <img src={embeddedCW2} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  Brushless motor
+                  Threads &amp; Control Algorithm - synchronous brushless motor
                   <br />
-                  <small className={classes.smallTitle}>Threads</small>
+                  <small className={classes.smallTitle}>Drove motor using photosensors </small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    Developed my own take of the 2048 game as one of my first programming projects
+                    Utilize threads to maximize efficiency of motor, measured using a bitcoin mining hash rate.
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
-                    <a href="https://github.com/jovanhan2/2048" target="_blank" rel="noopener noreferrer" title="Github">
+                    <a href="https://github.com/jovanhan2/Embedded-CW2" target="_blank" rel="noopener noreferrer" title="Github">
                       <i class="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href="https://github.com/jovanhan2/Embedded-CW2/blob/master/Report.pdf" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className={classes.socialsYoutube + " far fa-file-pdf"} />
+                    </a>
+                  </IconButton>
                 </CardFooter>
+
               </Card>
             </GridItem>
             <GridItem xs={12} sm={12} md={4}>
