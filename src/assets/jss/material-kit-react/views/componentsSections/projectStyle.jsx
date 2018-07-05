@@ -24,7 +24,6 @@ const projectStyle = {
   },
   description: {
     color: "#999",
-    height: "32px"
   },
   justifyCenter: {
     justifyContent: "center !important"
@@ -52,7 +51,9 @@ const projectStyle = {
     color: "#333"
   },
   margin5: {
-    margin: "5px"
+    margin: "5px",
+    position:"relative",
+    paddingTop: "10px"
   }
 };
 

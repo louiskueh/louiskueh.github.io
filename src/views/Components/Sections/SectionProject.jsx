@@ -49,9 +49,8 @@ class SectionProject extends React.Component {
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
-
                     <a href="https://github.com/lorenzo2897/vscode-ipe" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i className="devicon-github-plain colored"></i>
+                    <i className={classes.socialsGitHub + " fab fa-github"} />
                     </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
@@ -59,7 +58,7 @@ class SectionProject extends React.Component {
                       <i className={classes.socialsYoutube + " fab fa-youtube"} />
                     </a>
                   </IconButton>
-                  <IconButton color="transparent" >
+                  <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://angular.io/" target="_blank" rel="noopener noreferrer" title="Angular">
                       <i className="devicon-angularjs-plain colored"></i>
                     </a>
