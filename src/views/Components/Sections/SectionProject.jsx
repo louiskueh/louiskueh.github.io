@@ -17,6 +17,7 @@ import embeddedCW2 from "assets/img/embeddedCW2.PNG"
 import IBM from "assets/img/IBM.PNG"
 import IBMLogo from "assets/img/IBM_logo.svg"
 import compiler from "assets/img/compiler.png"
+
 class SectionProject extends React.Component {
   render() {
     const { classes } = this.props;

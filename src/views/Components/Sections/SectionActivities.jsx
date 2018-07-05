@@ -9,6 +9,7 @@ import GridItem from "../../../components/Grid/GridItem";
 import imperial from "assets/img/imperial.png"
 import healthHack from "assets/img/healthhack.jpg"
 import teachFirst from "assets/img/teachFirst.png"
+import ttPresident from "assets/img/tabletennisPresident.PNG"
 class SectionActivity extends React.Component {
   render() {
     const { classes } = this.props;
@@ -77,7 +78,14 @@ class SectionActivity extends React.Component {
               <GridItem>
                 <div className={classes.typo}>
                   <div className={classes.note}>
-                   
+                  <a href="https://ichealthhack.github.io/" target="_blank" rel="noopener noreferrer" title="Github">
+                      <img
+                        src={ttPresident}
+                        alt="healthHack"
+                        style={{ height: "8%", width: "8%", position: "relative", bottom: "3px", paddingRight: "10px" }}
+                        className="slick-image"
+                      />
+                    </a>
                     <b>President</b> | Imperial College Table Tennis Club | 2018</div>
                   <div className={classes.text}>
                     <hr />
@@ -114,7 +122,7 @@ class SectionActivity extends React.Component {
                       <li>An eye-opener to the impact of the socio-economic background of students - 33% of pupils on Free School Meals achieved 5 A*-Cs at GCSE compared to 60.5% of all other pupils. (United Kingdom)</li>
                     </ul>
 
-                    <p>Developed strong presentation, communication &amp; leadership qualities - nothing else is quite as hard as grabbing the attention of a room full of 30 kids</p>
+                    <p>Developed strong communication &amp; leadership qualities - nothing else is quite as hard as grabbing the attention of a room full of 30 kids</p>
                   </div>
 
 
