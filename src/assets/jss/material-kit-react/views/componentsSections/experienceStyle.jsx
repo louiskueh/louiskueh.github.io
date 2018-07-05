@@ -15,7 +15,8 @@ const typographyStyle = {
     ...title,
     textAlign: 'center',
     marginTop: "0x",
-    marginBottom: "30px",
+
+    paddingBottom: "20px",
     minHeight: "32px",
     textDecoration: "none"
   },
@@ -28,7 +29,7 @@ const typographyStyle = {
   },
   note: {
     fontFamily: '"Roboto", "Helvetica", "Arial", sans-serif',
-    color: "#c0c1c2",
+
     fontWeight: "400",
     fontSize: "16px",
     lineHeight: "16px",
