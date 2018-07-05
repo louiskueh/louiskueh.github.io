@@ -21,8 +21,8 @@ const typographyStyle = {
     textDecoration: "none"
   },
   typo: {
-    paddingLeft: "15%",
-    paddingRight:"15%",
+    paddingLeft: "10%",
+    paddingRight:"10%",
     marginBottom: "40px",
     position: "relative",
     width: "100%"
