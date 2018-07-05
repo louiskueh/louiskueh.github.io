@@ -38,7 +38,7 @@ class SectionCarousel extends React.Component {
             <h1>Projects</h1>
           </div>
           <GridContainer>
-            <GridItem xs={12} sm={12} md={30} className={classes.marginAuto}>
+            <GridItem xs={12} sm={12} md={12} className={classes.marginAuto}>
               <Card carousel>
                 <Carousel {...settings}>
                   <div>

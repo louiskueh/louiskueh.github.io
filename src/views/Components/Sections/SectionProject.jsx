@@ -50,7 +50,7 @@ class SectionProject extends React.Component {
                   <IconButton color="transparent" className={classes.margin5}>
 
                     <a href="https://github.com/lorenzo2897/vscode-ipe" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i class="devicon-github-plain colored"></i>
+                      <i className="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
@@ -60,12 +60,12 @@ class SectionProject extends React.Component {
                   </IconButton>
                   <IconButton color="transparent" >
                     <a href="https://angular.io/" target="_blank" rel="noopener noreferrer" title="Angular">
-                      <i class="devicon-angularjs-plain colored"></i>
+                      <i className="devicon-angularjs-plain colored"></i>
                     </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://code.visualstudio.com/docs/editor/whyvscode" target="_blank" rel="noopener noreferrer" title="VS Code">
-                      <i class="devicon-visualstudio-plain colored"></i>
+                      <i className="devicon-visualstudio-plain colored"></i>
                     </a>
                   </IconButton>
                 </CardFooter>
@@ -90,17 +90,17 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/jovanhan2.github.io" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i class="devicon-github-plain colored"></i>
+                      <i className="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                   <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" title="Angular">
-                    <i style={{ fontSize: 40, position: "relative", right: 4 }} class="devicon-react-original-wordmark colored"></i>
+                    <i style={{ fontSize: 40, position: "relative", right: 4 }} className="devicon-react-original-wordmark colored"></i>
                   </a>
                   <a href="https://nodejs.org/en/" target="_blank" rel="noopener noreferrer" title="Angular">
-                    <i style={{ fontSize: 40 }} class="devicon-nodejs-plain colored"></i>
+                    <i style={{ fontSize: 40 }} className="devicon-nodejs-plain colored"></i>
                   </a>
                   <a href="https://travis-ci.org/" target="_blank" rel="noopener noreferrer" title="Angular">
-                    <i style={{ fontSize: 40, position: "relative", left: 7 }} class="devicon-travis-plain-wordmark colored"></i>
+                    <i style={{ fontSize: 40, position: "relative", left: 7 }} className="devicon-travis-plain-wordmark colored"></i>
                   </a>
                 </CardFooter>
               </Card>
@@ -122,7 +122,6 @@ class SectionProject extends React.Component {
 
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
-                  <IconButton color="transparent" className={classes.margin5}>
                     <IconButton color="transparent" className={classes.margin5}>
                       <a href="https://www.ibm.com/uk-en/" target="_blank" rel="noopener noreferrer" title="Github">
                         <img style={{
@@ -131,7 +130,6 @@ class SectionProject extends React.Component {
                         }} src={IBMLogo} alt="..." />
                       </a>
                     </IconButton>
-                  </IconButton>
                 </CardFooter>
               </Card>
             </GridItem>
@@ -154,12 +152,12 @@ class SectionProject extends React.Component {
 
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/Simple2DPlatformer" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i class="devicon-github-plain colored"></i>
+                      <i className="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://docs.microsoft.com/en-us/dotnet/csharp/" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i class="devicon-csharp-plain colored"></i>
+                      <i className="devicon-csharp-plain colored"></i>
                     </a>
                   </IconButton>
                 </CardFooter>
@@ -183,12 +181,12 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/Internet-of-Things-Table-Tennis-Device" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i class="devicon-github-plain colored"></i>
+                      <i className="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i class="devicon-python-plain colored"></i>
+                      <i className="devicon-python-plain colored"></i>
                     </a>
                   </IconButton>
 
@@ -213,7 +211,7 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/Embedded-CW2" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i class="devicon-github-plain colored"></i>
+                      <i className="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
@@ -243,7 +241,7 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/Compiler-Cpp" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i class="devicon-github-plain colored"></i>
+                      <i className="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                   {/* C++ Logo here  */}
@@ -268,7 +266,7 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/2048" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i class="devicon-github-plain colored"></i>
+                      <i className="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                 </CardFooter>
@@ -293,7 +291,7 @@ class SectionProject extends React.Component {
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
                     <a href="https://github.com/jovanhan2/jovanhan2.github.io" target="_blank" rel="noopener noreferrer" title="Github">
-                      <i class="devicon-github-plain colored"></i>
+                      <i className="devicon-github-plain colored"></i>
                     </a>
                   </IconButton>
                 </CardFooter>
