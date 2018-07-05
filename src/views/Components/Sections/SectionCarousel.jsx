@@ -31,14 +31,6 @@ class SectionCarousel extends React.Component {
       slidesToScroll: 1,
       autoplay: false
     };
-    // const styles = {
-    //   link: {
-    //     color: "white",
-    //     ":hover": {
-    //       color: "red",
-    //     },
-    //   },
-    // };
     return (
       <div className={classes.section}>
         <div className={classes.container}>
