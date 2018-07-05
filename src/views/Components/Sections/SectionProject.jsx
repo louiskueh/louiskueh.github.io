@@ -175,7 +175,7 @@ class SectionProject extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    An embedded system that offers feedback &amp; statistics for table tennis techniques
+                    An embedded system that offers feedback &amp; statistics for table-tennis techniques
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
