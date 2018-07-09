@@ -12,6 +12,7 @@ import carouselStyle from "assets/jss/material-kit-react/views/componentsSection
 import image1 from "assets/gifs/VSCode.gif";
 import unityPlatformer from "assets/gifs/Unity2Dplatformer.gif";
 import game2048 from "assets/gifs/2048.gif";
+import studentfinance from "assets/gifs/studentfinanceWebsite.gif"
 // import vsCodeHackbooth from "assets/img/hackbooth.jpg"
 import Interactive from 'react-interactive';
 // import LocationOn from "@material-ui/icons/LocationOn";
@@ -123,6 +124,16 @@ class SectionCarousel extends React.Component {
 
                       </h4>
                     </div>
+                  </div>
+                  <div>
+                    <img
+                      src={studentfinance}
+                      width={imageWidth}
+                      height={imageHeight}
+                      alt="Thid slide"
+                      className="slick-image"
+                    />
+          
                   </div>
                   <div>
                     <img
