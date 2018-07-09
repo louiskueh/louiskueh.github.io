@@ -91,7 +91,7 @@ class SectionProject extends React.Component {
                 <CardBody>
                   <p className={classes.description}>
                     With over <b>177</b> commits and counting this project has been worked on since the start of 2018. Also optimized for mobile.
-  
+
                     {/* You can also view my previous website
                     <a href="https://louiskueh.com/oldWebsite" target="_blank" rel="noopener noreferrer" title="Old Website"> here </a> */}
                   </p>
@@ -216,12 +216,13 @@ class SectionProject extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                  <img src={embeddedCW1} alt="..." className={imageClasses} />
+                  <a href="https://github.com/jovanhan2/Internet-of-Things-Table-Tennis-Device" target="_blank" rel="noopener noreferrer" title="Github">
+                    <img src={embeddedCW1} alt="..." className={imageClasses} />
+                  </a>
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-                  <a href="https://github.com/jovanhan2/Internet-of-Things-Table-Tennis-Device" target="_blank" rel="noopener noreferrer" title="Github">
-                    IoT Table Tennis Device
-                  </a>
+
+                  IoT Table Tennis Device
                   <br />
                   <small className={classes.smallTitle}>Magnetometer, Triple-Axis Accelerometer</small>
                 </h4>
