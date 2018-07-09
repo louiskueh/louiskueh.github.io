@@ -15,7 +15,6 @@ const typographyStyle = {
     ...title,
     textAlign: 'center',
     marginTop: "0x",
-
     paddingBottom: "20px",
     minHeight: "32px",
     textDecoration: "none"
