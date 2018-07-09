@@ -84,8 +84,10 @@ class SectionProject extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    With over <b>140</b> commits and counting this project has been worked on since the start of 2018. You can also view my previous website
-                    <a href="https://louiskueh.com/oldWebsite" target="_blank" rel="noopener noreferrer" title="Old Website"> here </a>
+                    With over <b>177</b> commits and counting this project has been worked on since the start of 2018. Also optimized for mobile.
+                    
+                    {/* You can also view my previous website
+                    <a href="https://louiskueh.com/oldWebsite" target="_blank" rel="noopener noreferrer" title="Old Website"> here </a> */}
                   </p>
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
