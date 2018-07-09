@@ -35,8 +35,7 @@ const projectStyle = {
     left: "0",
     top: "0",
     height: "100%",
-    lineHeight: "41px",
-    fontSize: "20px",
+
     color: "#e52d27"
   },
   socialsGitHub: {
@@ -46,8 +45,6 @@ const projectStyle = {
     left: "0",
     top: "0",
     height: "100%",
-    lineHeight: "41px",
-    fontSize: "20px",
     color: "#333"
   },
   margin5: {
