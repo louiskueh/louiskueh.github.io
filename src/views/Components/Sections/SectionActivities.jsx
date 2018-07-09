@@ -37,7 +37,7 @@ class SectionActivity extends React.Component {
                     | Imperial College London | Spring 2018</div>
                   <div className={classes.text}>
                     <hr />
-                    <h4>Taught EE1-07 Software Engineering 1: Introduction to Computing. </h4>
+                    <h4>EE1-07 Software Engineering 1: Introduction to Computing. </h4>
 
                     <ul>
                       <li>Responsible for introducing programming to new undergraduate students.</li>
