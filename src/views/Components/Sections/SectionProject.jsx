@@ -128,7 +128,7 @@ class SectionProject extends React.Component {
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    A simple, no fuss blog designed in HTML,CSS and bootstrap. Designed to give insight into student life and offer finance tips. You can view it
+                    A simple, no fuss blog designed in HTML,CSS and Bootstrap. Designed to give insight into student life and offer finance tips. You can view it
                     <a href="http://studentfinancetips.org/Imperial-College/" target="_blank" rel="noopener noreferrer" title="studentfinancetips.org"> here </a>
                   </p>
                 </CardBody>
