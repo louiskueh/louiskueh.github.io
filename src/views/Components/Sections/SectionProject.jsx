@@ -17,7 +17,8 @@ import embeddedCW2 from "assets/img/embeddedCW2.PNG"
 import IBM from "assets/img/IBM.PNG"
 import IBMLogo from "assets/img/IBM_logo.svg"
 import compiler from "assets/img/compiler.png"
-
+import studentfinance from "assets/gifs/studentfinanceWebsite.gif"
+import graphics from "assets/img//graphics.PNG"
 class SectionProject extends React.Component {
   render() {
     const { classes } = this.props;
@@ -109,7 +110,7 @@ class SectionProject extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                  <img src={website} alt="..." className={imageClasses} />
+                  <img src={studentfinance} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   studentfinancetips.org
@@ -316,7 +317,7 @@ class SectionProject extends React.Component {
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                  <img src={website} alt="..." className={imageClasses} />
+                  <img src={graphics} alt="..." className={imageClasses} />
                 </GridItem>
                 <h4 className={classes.cardTitle}>
                   Graphics

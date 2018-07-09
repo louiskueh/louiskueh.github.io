@@ -1,7 +1,5 @@
 /* eslint-disable */
 import React from "react";
-// react components for routing our app without refresh
-import { Link } from "react-router-dom";
 
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
@@ -10,10 +8,7 @@ import ListItem from "material-ui/List/ListItem";
 import Tooltip from "material-ui/Tooltip";
 
 // @material-ui/icons
-import { Apps, CloudDownload } from "@material-ui/icons";
-
-// core components
-import CustomDropdown from "components/CustomDropdown/CustomDropdown.jsx";
+import {  CloudDownload } from "@material-ui/icons";
 import Button from "components/CustomButtons/Button.jsx";
 import IconButton from "components/CustomButtons/IconButton.jsx";
 

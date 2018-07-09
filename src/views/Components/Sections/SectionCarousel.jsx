@@ -3,7 +3,6 @@ import React from "react";
 import Carousel from "react-slick";
 // material-ui components
 import withStyles from "material-ui/styles/withStyles";
-
 // core components
 import GridContainer from "components/Grid/GridContainer.jsx";
 import GridItem from "components/Grid/GridItem.jsx";
@@ -13,9 +12,10 @@ import carouselStyle from "assets/jss/material-kit-react/views/componentsSection
 import image1 from "assets/gifs/VSCode.gif";
 import unityPlatformer from "assets/gifs/Unity2Dplatformer.gif";
 import game2048 from "assets/gifs/2048.gif";
-import vsCodeHackbooth from "assets/img/hackbooth.jpg"
+// import vsCodeHackbooth from "assets/img/hackbooth.jpg"
 import Interactive from 'react-interactive';
-import LocationOn from "@material-ui/icons/LocationOn";
+// import LocationOn from "@material-ui/icons/LocationOn";
+import Tooltip from "material-ui/Tooltip";
 class SectionCarousel extends React.Component {
   constructor() {
     super();
@@ -67,6 +67,12 @@ class SectionCarousel extends React.Component {
                 <Card carousel>
                   <Carousel {...settings}>
                     <div>
+                      <Tooltip
+                        id="github"
+                        title="Follow me on Github"
+                        placement={window.innerWidth > 959 ? "top" : "left"}
+                        classes={{ tooltip: classes.tooltip }}
+                      >
                       <img
                         src={image1}
                         width={imageWidth}
@@ -74,83 +80,98 @@ class SectionCarousel extends React.Component {
                         alt="First slide"
                         className="slick-image"
                       />
-
+                  </Tooltip>
                     </div>
-                    <div>
-                      <img
-                        src={vsCodeHackbooth}
-                        width={imageWidth}
-                        height={imageHeight}
-                        alt="First slide"
-                        className="slick-image"
-                      />
-                      <div className="slick-caption">
-                        <h4 >              
-                            <LocationOn className="slick-icons" />Hackbooth Demonstration, Imperial College London
+                  {/* <div>
+                    <img
+                      src={vsCodeHackbooth}
+                      width={imageWidth}
+                      height={imageHeight}
+                      alt="First slide"
+                      className="slick-image"
+                    />
+                    <div className="slick-caption">
+                      <h4 >
+                        <LocationOn className="slick-icons" />Hackbooth Demonstration, Imperial College London
                         </h4>
-                      </div>
-
                     </div>
-                    <div>
-                      <img
-                        src={unityPlatformer}
-                        width={imageWidth}
-                        height={imageHeight}
-                        alt="Second slide"
-                        className="slick-image"
-                      />
-                      <div className="slick-caption">
-                        <h4>
-                          <i className={classes.socialIcons + " fab fa-github fa-2x"} />
-                          <Interactive
-                            as="a"
-                            href="https://github.com/jovanhan2/Simple2DPlatformer"
-                            target="_blank"
-                            normal={{ color: 'white' }}
 
-                            // mouse interactions: normal -> hover -> hoverActive
-                            hover={{ color: '#3062D5' }}
-                            hoverActive={{ color: '#031C57' }}
-                          >
-                            &nbsp;&nbsp;2D platformer game (Unity)
+                  </div> */}
+                  <div>
+                    <img
+                      src={unityPlatformer}
+                      width={imageWidth}
+                      height={imageHeight}
+                      alt="Second slide"
+                      className="slick-image"
+                    />
+                    <div className="slick-caption">
+                      <h4>
+                        <i className={classes.socialIcons + " fab fa-github fa-2x"} />
+                        <Interactive
+                          as="a"
+                          href="https://github.com/jovanhan2/Simple2DPlatformer"
+                          target="_blank"
+                          normal={{ color: 'white' }}
+
+                          // mouse interactions: normal -> hover -> hoverActive
+                          hover={{ color: '#3062D5' }}
+                          hoverActive={{ color: '#031C57' }}
+                        >
+                          &nbsp;&nbsp;2D platformer game (Unity)
                         </Interactive>
 
-                        </h4>
-                      </div>
+                      </h4>
                     </div>
-                    <div>
-                      <img
-                        src={game2048}
-                        width={imageWidth}
-                        height={imageHeight}
-                        alt="Third slide"
-                        className="slick-image"
-                      />
-                      <div className="slick-caption">
-                        <LocationOn className="slick-icons" />Hackbooth Demonstration, Imperial College London
+                  </div>
+                  <div>
+                    <img
+                      src={game2048}
+                      width={imageWidth}
+                      height={imageHeight}
+                      alt="Third slide"
+                      className="slick-image"
+                    />
+                    <div className="slick-caption">
+                    <h4>
+                        <i className={classes.socialIcons + " fab fa-github fa-2x"} />
+                        <Interactive
+                          as="a"
+                          href="https://github.com/jovanhan2/2048"
+                          target="_blank"
+                          normal={{ color: 'white' }}
+
+                          // mouse interactions: normal -> hover -> hoverActive
+                          hover={{ color: '#3062D5' }}
+                          hoverActive={{ color: '#031C57' }}
+                        >
+                          &nbsp;&nbsp; 2048 Game
+                        </Interactive>
+
+                      </h4>
                     </div>
-                    </div>
+                  </div>
                   </Carousel>
                 </Card>
               </GridItem>
             </GridContainer>
-          </div>
         </div>
-      );
+          </div >
+          );
     } else {
-      return <div>   
+      return <div>
         <div className={classes.section}>
-        <div className={classes.container}>
-          <div className={classes.title}>
-            <h1>Projects</h1>
+          <div className={classes.container}>
+            <div className={classes.title}>
+              <h1>Projects</h1>
+            </div>
           </div>
         </div>
-        </div>
-        </div>
+      </div>
 
 
-        }
-      }
     }
-    
-    export default withStyles(carouselStyle)(SectionCarousel);
+  }
+}
+
+export default withStyles(carouselStyle)(SectionCarousel);
