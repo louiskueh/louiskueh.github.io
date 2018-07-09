@@ -347,7 +347,7 @@ class SectionProject extends React.Component {
                 <h4 className={classes.cardTitle}>
                   Graphics
                   <br />
-                  <small className={classes.smallTitle}>Developed ray tracing algorithm to display teapot</small>
+                  <small className={classes.smallTitle}>Ray tracing</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
