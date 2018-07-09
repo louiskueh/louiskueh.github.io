@@ -1,8 +1,8 @@
 {
   "main.css": "static/css/main.1a351228.css",
   "main.css.map": "static/css/main.1a351228.css.map",
-  "main.js": "static/js/main.12775cc6.js",
-  "main.js.map": "static/js/main.12775cc6.js.map",
+  "main.js": "static/js/main.232bff0b.js",
+  "main.js.map": "static/js/main.232bff0b.js.map",
   "static\\media\\2048.gif": "static/media/2048.6b7f710c.gif",
   "static\\media\\IBM.PNG": "static/media/IBM.b47193b6.PNG",
   "static\\media\\IBM_logo.svg": "static/media/IBM_logo.deb5ecbc.svg",
@@ -10,10 +10,12 @@
   "static\\media\\VSCode.gif": "static/media/VSCode.da52c0f8.gif",
   "static\\media\\compiler.png": "static/media/compiler.0bf69cb5.png",
   "static\\media\\embeddedCW2.PNG": "static/media/embeddedCW2.dc594b08.PNG",
-  "static\\media\\hackbooth.jpg": "static/media/hackbooth.18d1b6ef.jpg",
+  "static\\media\\graphics.PNG": "static/media/graphics.5f643f11.PNG",
   "static\\media\\healthhack.jpg": "static/media/healthhack.53aa6f23.jpg",
   "static\\media\\imperial.png": "static/media/imperial.e44b798b.png",
   "static\\media\\myBG.jpg": "static/media/myBG.51709cac.jpg",
+  "static\\media\\studentfinanceWebsite.gif": "static/media/studentfinanceWebsite.11cc0c07.gif",
   "static\\media\\tabletennis.png": "static/media/tabletennis.7d70e9d8.png",
+  "static\\media\\tabletennisPresident.PNG": "static/media/tabletennisPresident.e8749016.PNG",
   "static\\media\\website.gif": "static/media/website.edc1dd4a.gif"
 }
