@@ -82,15 +82,13 @@ class SectionProject extends React.Component {
                   </a>
                 </GridItem>
                 <h4 className={classes.cardTitle}>
-
                   louiskueh.com
-
                 <br />
                   <small className={classes.smallTitle}>A material design porfolio developed from ground up</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
-                    With over <b>177</b> commits and counting this project has been worked on since the start of 2018. Also optimized for mobile.
+                    With over <b>177</b> commits and counting this project has been worked on since the start of 2018.
 
                     {/* You can also view my previous website
                     <a href="https://louiskueh.com/oldWebsite" target="_blank" rel="noopener noreferrer" title="Old Website"> here </a> */}
