@@ -67,7 +67,7 @@ class SectionProject extends React.Component {
                     </a>
                   </IconButton>
                   <IconButton color="transparent" className={classes.margin5}>
-                    <a href="https://code.visualstudio.com/docs/editor/whyvscode" target="_blank" rel="noopener noreferrer" title="VS Code">
+                    <a href="https://marketplace.visualstudio.com/items?itemName=neuron.neuron-IPE" target="_blank" rel="noopener noreferrer" title="VS Code">
                       <i className="devicon-visualstudio-plain colored"></i>
                     </a>
                   </IconButton>
