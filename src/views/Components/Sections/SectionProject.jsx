@@ -84,7 +84,7 @@ class SectionProject extends React.Component {
                 <h4 className={classes.cardTitle}>
                   louiskueh.com
                 <br />
-                  <small className={classes.smallTitle}>A material design porfolio developed from ground up</small>
+                  <small className={classes.smallTitle}>A material design portfolio developed from ground up</small>
                 </h4>
                 <CardBody>
                   <p className={classes.description}>
