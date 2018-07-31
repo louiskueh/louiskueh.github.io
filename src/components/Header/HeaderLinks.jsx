@@ -16,7 +16,7 @@ import headerLinksStyle from "assets/jss/material-kit-react/components/headerLin
 
 function HeaderLinks({ ...props }) {
   const { classes } = props;
-  let resume = "https://github.com/jovanhan2/jovanhan2.github.io/raw/react/src/assets/resources/cv.pdf"
+  let resume = "https://goo.gl/spLhEs"
   return (
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
