@@ -15,7 +15,7 @@ class SectionAboutMe extends React.Component {
             <h1>About Me</h1>
           </div>
           <div className={classes.aboutMeText}>
-            Experienced student with a demonstrated history of working in software development.
+            Ambitious student with a demonstrated history in software development.
             Strong education professional with a Master’s Degree focused in <b>Computer Science &amp; Electronic Engineering </b> from <b>Imperial College London</b> (2015 - 2019).
             <br />
             <br />

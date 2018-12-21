@@ -32,6 +32,38 @@ class SectionProject extends React.Component {
         {/* <h2 className={classes.title}>Here is our team</h2> */}
         <div>
           <GridContainer >
+          <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
+                  <a href="https://github.com/lorenzo2897/vscode-ipe" target="_blank" rel="noopener noreferrer" title="VS Code IPE">
+                    <img src={vsCode} alt="..." className={imageClasses} />
+                  </a>
+                </GridItem>
+                <h4 className={classes.cardTitle}>
+                  Silver Retriver
+                  <br />
+                  <small className={classes.smallTitle}>Delivery Robot</small>
+                </h4>
+                <CardBody>
+                  <p className={classes.description}>
+                    An indoor delivery robot controlled via the web. Utilises the robot operating system coupled with a React front end hosted on AWS.
+                  </p>
+
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href="https://github.com/CliveWongTohSoon/HCR2018" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                    </a>
+                  </IconButton>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href="https://www.youtube.com/watch?v=YCe43amyQj4&feature=youtu.be " target="_blank" rel="noopener noreferrer" title="Youtube">
+                      <i className={classes.socialsYoutube + " fab fa-youtube"} />
+                    </a>
+                  </IconButton>
+                </CardFooter>
+              </Card>
+            </GridItem>
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
