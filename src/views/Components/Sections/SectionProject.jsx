@@ -19,6 +19,7 @@ import IBMLogo from "assets/img/IBM_logo.svg"
 import compiler from "assets/img/compiler.png"
 import studentfinance from "assets/gifs/studentfinanceWebsite.gif"
 import graphics from "assets/img/graphics.PNG"
+import hcr from "assets/img/3DRobotWithLabel.PNG"
 class SectionProject extends React.Component {
   render() {
     const { classes } = this.props;
@@ -35,8 +36,8 @@ class SectionProject extends React.Component {
           <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
-                  <a href="https://github.com/lorenzo2897/vscode-ipe" target="_blank" rel="noopener noreferrer" title="VS Code IPE">
-                    <img src={vsCode} alt="..." className={imageClasses} />
+                  <a href="https://github.com/CliveWongTohSoon/HCR2018" target="_blank" rel="noopener noreferrer" title="VS Code IPE">
+                    <img src={hcr} alt="..." className={imageClasses} />
                   </a>
                 </GridItem>
                 <h4 className={classes.cardTitle}>
@@ -47,6 +48,13 @@ class SectionProject extends React.Component {
                 <CardBody>
                   <p className={classes.description}>
                     An indoor delivery robot controlled via the web. Utilises the robot operating system coupled with a React front end hosted on AWS.
+                    <a href="https://drive.google.com/open?id=1jh3bjLxjckoS6UIfEb9X6UiE3hEeIiHu" target="_blank" rel="noopener noreferrer" title="VS Code IPE">
+                      (Deisgn Report)
+                    </a>
+                     
+                    <a href="https://drive.google.com/open?id=15XKLSVRFPsr4LU1CT7EidC6nNj11H99o" target="_blank" rel="noopener noreferrer" title="VS Code IPE">
+                    (Final Report)
+                    </a>
                   </p>
 
                 </CardBody>
