@@ -44,7 +44,7 @@ function HeaderLinks({ ...props }) {
           classes={{ tooltip: classes.tooltip }}
         >
           <IconButton
-            href="https://github.com/jovanhan2"
+            href="https://github.com/louiskueh"
             target="_blank"
             color="transparent"
             className={classes.navLink + " " + classes.socialIconsButton}
