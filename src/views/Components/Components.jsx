@@ -18,7 +18,6 @@ import SectionExperience from "./Sections/SectionExperience.jsx";
 import SectionCarousel from "./Sections/SectionCarousel.jsx";
 import SectionAboutMe from "./Sections/SectionAboutMe"
 import SectionProject from "./Sections/SectionProject.jsx"
-// import SectionAboutMe from "./Sections/SectionAboutMe.jsx"
 import componentsStyle from "assets/jss/material-kit-react/views/components.jsx";
 import SectionActivities from "./Sections/SectionActivities";
 
