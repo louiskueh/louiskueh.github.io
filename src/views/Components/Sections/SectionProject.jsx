@@ -57,7 +57,7 @@ class SectionProject extends React.Component {
                 </CardBody>
                 <CardFooter className={classes.justifyCenter}>
                   <IconButton color="transparent" className={classes.margin5}>
-                    <a href="https://github.com/CliveWongTohSoon/HCR2018" target="_blank" rel="noopener noreferrer" title="Github">
+                    <a href="https://github.com/louiskueh/spotify-guesser" target="_blank" rel="noopener noreferrer" title="Github">
                       <i className={classes.socialsGitHub + " fab fa-github"} />
                     </a>
                   </IconButton>      
