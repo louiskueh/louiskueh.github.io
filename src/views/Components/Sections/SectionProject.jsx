@@ -21,6 +21,8 @@ import studentfinance from "assets/gifs/studentfinanceWebsite.gif"
 import graphics from "assets/img/graphics.PNG"
 import hcr from "assets/img/3DRobotWithLabel.PNG"
 import PR from "assets/img/patternrec.png"
+import spotifyImage from "assets/gifs/spotify.gif"
+
 class SectionProject extends React.Component {
   render() {
     const { classes } = this.props;
@@ -34,6 +36,34 @@ class SectionProject extends React.Component {
         {/* <h2 className={classes.title}>Here is our team</h2> */}
         <div>
           <GridContainer >
+          <GridItem xs={12} sm={12} md={4}>
+              <Card plain>
+                <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
+                  <a href="https://spotify-guesser.louiskueh.com/" target="_blank" rel="noopener noreferrer" title="Spotify guesser">
+                    <img src={spotifyImage} alt="..." className={imageClasses} />
+                  </a>
+                </GridItem>
+                <h4 className={classes.cardTitle}>
+                  Spotify guesser
+                  <br />
+                  <small className={classes.smallTitle}>Build with React and hosted via Netlify</small>
+                </h4>
+                <CardBody>
+                  <p className={classes.description}>
+                    A real time guessing game for your currently playing spotify tracks.
+                    <a href="https://spotify-guesser.louiskueh.com/"> Play here! </a>
+                  </p>
+
+                </CardBody>
+                <CardFooter className={classes.justifyCenter}>
+                  <IconButton color="transparent" className={classes.margin5}>
+                    <a href="https://github.com/CliveWongTohSoon/HCR2018" target="_blank" rel="noopener noreferrer" title="Github">
+                      <i className={classes.socialsGitHub + " fab fa-github"} />
+                    </a>
+                  </IconButton>      
+                </CardFooter>
+              </Card>
+            </GridItem>
           <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
