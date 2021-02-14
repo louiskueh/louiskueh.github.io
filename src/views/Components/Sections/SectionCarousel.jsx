@@ -9,12 +9,13 @@ import GridItem from "components/Grid/GridItem.jsx";
 import Card from "components/Card/Card.jsx";
 import carouselStyle from "assets/jss/material-kit-react/views/componentsSections/carouselStyle.jsx";
 
-import image1 from "assets/gifs/VSCode.gif";
+import vsCode from "assets/gifs/VSCode.gif";
 import unityPlatformer from "assets/gifs/Unity2Dplatformer.gif";
-import game2048 from "assets/gifs/2048.gif";
-import studentfinance from "assets/gifs/studentfinanceWebsite.gif"
+import spotifyImage from "assets/gifs/spotify.gif";
+import quiz from "assets/gifs/quiz.gif";
+import studentfinance from "assets/gifs/studentfinanceWebsite.gif";
 // import vsCodeHackbooth from "assets/img/hackbooth.jpg"
-import Interactive from 'react-interactive';
+import Interactive from "react-interactive";
 // import LocationOn from "@material-ui/icons/LocationOn";
 import Tooltip from "material-ui/Tooltip";
 class SectionCarousel extends React.Component {
@@ -26,13 +27,13 @@ class SectionCarousel extends React.Component {
   }
 
   componentWillMount() {
-    window.addEventListener('resize', this.handleWindowSizeChange);
+    window.addEventListener("resize", this.handleWindowSizeChange);
   }
 
   // make sure to remove the listener
   // when the component is not mounted anymore
   componentWillUnmount() {
-    window.removeEventListener('resize', this.handleWindowSizeChange);
+    window.removeEventListener("resize", this.handleWindowSizeChange);
   }
 
   handleWindowSizeChange = () => {
@@ -40,8 +41,8 @@ class SectionCarousel extends React.Component {
   };
 
   render() {
-    const imageHeight = 559
-    const imageWidth = 1200
+    const imageHeight = 559;
+    const imageWidth = 1200;
     const { classes } = this.props;
     const settings = {
       height: 10,
@@ -51,13 +52,12 @@ class SectionCarousel extends React.Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      autoplay: false
+      autoplay: false,
     };
     const { width } = this.state;
     const isMobile = width <= 1000;
     if (!isMobile) {
       return (
-
         <div className={classes.section}>
           <div className={classes.container}>
             <div className={classes.title}>
@@ -74,113 +74,72 @@ class SectionCarousel extends React.Component {
                         placement={window.innerWidth > 959 ? "top" : "left"}
                         classes={{ tooltip: classes.tooltip }}
                       >
+                        <img
+                          src={vsCode}
+                          width={imageWidth}
+                          height={imageHeight}
+                          alt="First slide"
+                          className="slick-image"
+                        />
+                      </Tooltip>
+                    </div>
+                    <div>
                       <img
-                        src={image1}
+                        src={quiz}
                         width={imageWidth}
                         height={imageHeight}
-                        alt="First slide"
+                        alt="Thid slide"
                         className="slick-image"
                       />
-                  </Tooltip>
                     </div>
-                  {/* <div>
-                    <img
-                      src={vsCodeHackbooth}
-                      width={imageWidth}
-                      height={imageHeight}
-                      alt="First slide"
-                      className="slick-image"
-                    />
-                    <div className="slick-caption">
-                      <h4 >
-                        <LocationOn className="slick-icons" />Hackbooth Demonstration, Imperial College London
+                    <div>
+                      <img
+                        src={unityPlatformer}
+                        width={imageWidth}
+                        height={imageHeight}
+                        alt="Second slide"
+                        className="slick-image"
+                      />
+                      <div className="slick-caption">
+                        <h4>
+                          <i
+                            className={
+                              classes.socialIcons + " fab fa-github fa-2x"
+                            }
+                          />
+                          <Interactive
+                            as="a"
+                            href="https://github.com/jovanhan2/Simple2DPlatformer"
+                            target="_blank"
+                            normal={{ color: "white" }}
+                            // mouse interactions: normal -> hover -> hoverActive
+                            hover={{ color: "#3062D5" }}
+                            hoverActive={{ color: "#031C57" }}
+                          >
+                            &nbsp;&nbsp;2D platformer game (Unity)
+                          </Interactive>
                         </h4>
+                      </div>
                     </div>
-
-                  </div> */}
-                  <div>
-                    <img
-                      src={unityPlatformer}
-                      width={imageWidth}
-                      height={imageHeight}
-                      alt="Second slide"
-                      className="slick-image"
-                    />
-                    <div className="slick-caption">
-                      <h4>
-                        <i className={classes.socialIcons + " fab fa-github fa-2x"} />
-                        <Interactive
-                          as="a"
-                          href="https://github.com/jovanhan2/Simple2DPlatformer"
-                          target="_blank"
-                          normal={{ color: 'white' }}
-
-                          // mouse interactions: normal -> hover -> hoverActive
-                          hover={{ color: '#3062D5' }}
-                          hoverActive={{ color: '#031C57' }}
-                        >
-                          &nbsp;&nbsp;2D platformer game (Unity)
-                        </Interactive>
-
-                      </h4>
-                    </div>
-                  </div>
-                  <div>
-                    <img
-                      src={studentfinance}
-                      width={imageWidth}
-                      height={imageHeight}
-                      alt="Thid slide"
-                      className="slick-image"
-                    />
-          
-                  </div>
-                  <div>
-                    <img
-                      src={game2048}
-                      width={imageWidth}
-                      height={imageHeight}
-                      alt="Third slide"
-                      className="slick-image"
-                    />
-                    <div className="slick-caption">
-                    <h4>
-                        <i className={classes.socialIcons + " fab fa-github fa-2x"} />
-                        <Interactive
-                          as="a"
-                          href="https://github.com/jovanhan2/2048"
-                          target="_blank"
-                          normal={{ color: 'white' }}
-
-                          // mouse interactions: normal -> hover -> hoverActive
-                          hover={{ color: '#3062D5' }}
-                          hoverActive={{ color: '#031C57' }}
-                        >
-                          &nbsp;&nbsp; 2048 Game
-                        </Interactive>
-
-                      </h4>
-                    </div>
-                  </div>
                   </Carousel>
                 </Card>
               </GridItem>
             </GridContainer>
+          </div>
         </div>
-          </div >
-          );
+      );
     } else {
-      return <div>
-        <div className={classes.section}>
-          <div className={classes.container}>
-            <div className={classes.title}>
-              <h1>Projects</h1>
+      return (
+        <div>
+          <div className={classes.section}>
+            <div className={classes.container}>
+              <div className={classes.title}>
+                <h1>Projects</h1>
+              </div>
             </div>
           </div>
         </div>
-      </div>
-
-
+      );
     }
   }
 }

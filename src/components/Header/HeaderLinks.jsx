@@ -70,6 +70,23 @@ function HeaderLinks({ ...props }) {
           </IconButton>
         </Tooltip>
       </ListItem>
+      <ListItem className={classes.listItem}>
+        <Tooltip
+          id="Youtube"
+          title="Checkout my Youtube"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+          <IconButton
+            color="transparent"
+            href="https://yt.vu/+louiskueh"
+            target="_blank"
+            className={classes.navLink + " " + classes.socialIconsButton}
+          >
+            <i className={classes.socialIcons + " fab fa-youtube"} />
+          </IconButton>
+        </Tooltip>
+      </ListItem>
     </List>
   );
 }
