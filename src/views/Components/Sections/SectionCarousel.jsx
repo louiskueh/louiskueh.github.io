@@ -90,6 +90,7 @@ class SectionCarousel extends React.Component {
                         height={imageHeight}
                         alt="Thid slide"
                         className="slick-image"
+                        resizeMode={'contain'}
                       />
                     </div>
                     <div>

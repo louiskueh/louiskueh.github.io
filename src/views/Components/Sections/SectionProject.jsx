@@ -399,7 +399,7 @@ class SectionProject extends React.Component {
                 </CardFooter>
               </Card>
             </GridItem>
-            <GridItem xs={12} sm={12} md={4}>
+            {/* <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
                   <a
@@ -484,7 +484,7 @@ class SectionProject extends React.Component {
                   </a>
                 </CardFooter>
               </Card>
-            </GridItem>
+            </GridItem> */}
             <GridItem xs={12} sm={12} md={4}>
               <Card plain>
                 <GridItem xs={12} sm={12} md={10} className={classes.itemGrid}>
