@@ -21,6 +21,23 @@ function HeaderLinks({ ...props }) {
     <List className={classes.list}>
       <ListItem className={classes.listItem}>
       <Tooltip
+          id="Blog"
+          title="Blog"
+          placement={window.innerWidth > 959 ? "top" : "left"}
+          classes={{ tooltip: classes.tooltip }}
+        >
+        <Button
+          href="https://blog.louiskueh.com"
+          color="transparent"
+          target="_blank"
+          className={classes.navLink}
+        >
+             <i className={classes.socialIcons + " fas fa-pen-square"} /> &nbsp; Blog
+        </Button>
+        </Tooltip>
+      </ListItem>
+      <ListItem className={classes.listItem}>
+      <Tooltip
           id="Resume Download"
           title="Download my resume"
           placement={window.innerWidth > 959 ? "top" : "left"}
@@ -32,7 +49,7 @@ function HeaderLinks({ ...props }) {
           target="_blank"
           className={classes.navLink}
         >
-          <CloudDownload className={classes.icons} /> Resume
+          <CloudDownload className={classes.icons} />&nbsp;  Resume
         </Button>
         </Tooltip>
       </ListItem>
