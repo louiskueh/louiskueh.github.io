@@ -1,7 +1,0 @@
-# Redirect /music to Vercel app (Music Guesser)
-# Keeps URL as louiskueh.com/music
-
-/music/*  https://music-guesser-gray.vercel.app/:splat  200
-
-# Optional: handle exact /music route too
-/music  https://music-guesser-gray.vercel.app/  200
